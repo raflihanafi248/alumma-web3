@@ -191,6 +191,8 @@
     position: absolute; inset: 0; width: 100%; height: 100%;
     object-fit: cover; z-index: 1; transition: transform 0.5s ease;
   }
+  /* Foto produk berlatar putih ditampilkan utuh (tidak dipotong) */
+  .photo-frame img.fit-contain { object-fit: contain; background: #ffffff; padding: 12px; }
   .photo-caption {
     position: absolute; left: 0; right: 0; bottom: 0; z-index: 2;
     padding: 16px 18px;
@@ -684,7 +686,7 @@
 
       <div class="hero-photo-wrap">
         <div class="photo-frame hero-photo">
-          <img src="foto-hero.png" alt="Gulungan aluminium di gudang produksi" onerror="this.style.display='none'">
+          <img src="img/foto-hero.jpg" alt="Gulungan aluminium di gudang produksi" onerror="this.style.display='none'">
           <div class="photo-caption">Material aluminium — siap dipotong sesuai ukuran</div>
         </div>
       </div>
@@ -852,19 +854,19 @@
     </div>
     <div class="gallery-carousel reveal">
       <div class="gallery-track">
-        <div class="photo-frame gallery-item"><img src="foto-galeri-1.png" alt="Kusen pintu rumah tinggal" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Kusen pintu — rumah tinggal</div></div>
-        <div class="photo-frame gallery-item"><img src="foto-galeri-2.png" alt="Jendela sliding ruko" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Jendela sliding — ruko</div></div>
-        <div class="photo-frame gallery-item"><img src="foto-galeri-3.png" alt="Partisi ruangan kantor" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Partisi ruangan — kantor</div></div>
-        <div class="photo-frame gallery-item"><img src="foto-galeri-4.png" alt="Etalase toko" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Etalase toko</div></div>
-        <div class="photo-frame gallery-item"><img src="foto-galeri-5.png" alt="Pintu swing akses usaha" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pintu swing — akses usaha</div></div>
-        <div class="photo-frame gallery-item"><img src="foto-galeri-6.png" alt="Pekerjaan custom aluminium" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pekerjaan custom</div></div>
+        <div class="photo-frame gallery-item"><img src="img/foto-galeri-1.jpg" alt="Kusen pintu rumah tinggal" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Kusen pintu — rumah tinggal</div></div>
+        <div class="photo-frame gallery-item"><img src="img/foto-galeri-2.jpg" alt="Kusen jendela kaca pada ruko" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Kusen jendela kaca — ruko</div></div>
+        <div class="photo-frame gallery-item"><img src="img/foto-galeri-3.jpg" alt="Partisi ruangan kantor" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Partisi ruangan — kantor</div></div>
+        <div class="photo-frame gallery-item"><img src="img/foto-galeri-4.jpg" alt="Etalase kaca rangka aluminium" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Etalase toko</div></div>
+        <div class="photo-frame gallery-item"><img src="img/foto-galeri-5.jpg" class="fit-contain" alt="Pintu swing dua daun aluminium" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pintu swing 2 daun — akses usaha</div></div>
+        <div class="photo-frame gallery-item"><img src="img/foto-galeri-6.jpg" alt="Profil aluminium untuk pekerjaan custom" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Profil aluminium — pekerjaan custom</div></div>
         <!-- set duplikat agar marquee menyambung tanpa jeda -->
-        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-1.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Kusen pintu — rumah tinggal</div></div>
-        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-2.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Jendela sliding — ruko</div></div>
-        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-3.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Partisi ruangan — kantor</div></div>
-        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-4.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Etalase toko</div></div>
-        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-5.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pintu swing — akses usaha</div></div>
-        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-6.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pekerjaan custom</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="img/foto-galeri-1.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Kusen pintu — rumah tinggal</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="img/foto-galeri-2.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Kusen jendela kaca — ruko</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="img/foto-galeri-3.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Partisi ruangan — kantor</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="img/foto-galeri-4.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Etalase toko</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="img/foto-galeri-5.jpg" class="fit-contain" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pintu swing 2 daun — akses usaha</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="img/foto-galeri-6.jpg" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Profil aluminium — pekerjaan custom</div></div>
       </div>
     </div>
   </div>
@@ -1186,7 +1188,7 @@ const FINISHING = [
 const PRODUCTS = [
   {
     id: "kusen", nama: "Kusen Aluminium", grup: "pintu-jendela", jenis: "Produk",
-    img: "foto-produk-kusen.png",
+    img: "img/foto-produk-kusen.jpg",
     desc: "Rangka pintu dan jendela minimalis yang dipasang mengikuti ukuran bukaan tembok.",
     unit: "m", finishing: true,
     variants: [
@@ -1196,7 +1198,7 @@ const PRODUCTS = [
   },
   {
     id: "pintu", nama: "Pintu Aluminium", grup: "pintu-jendela", jenis: "Produk",
-    img: "foto-produk-pintu.png",
+    img: "img/foto-produk-pintu.jpg",
     desc: "Satu set lengkap untuk pintu utama, samping, atau akses usaha: kusen, daun pintu, kaca 5 mm, engsel/rel, dan kunci.",
     unit: "unit", finishing: true,
     variants: [
@@ -1208,7 +1210,7 @@ const PRODUCTS = [
   },
   {
     id: "jendela", nama: "Jendela Aluminium", grup: "pintu-jendela", jenis: "Produk",
-    img: "foto-produk-jendela.png",
+    img: "img/foto-produk-jendela.jpg",
     desc: "Jendela modern untuk sirkulasi udara dan cahaya alami, termasuk kaca 5 mm.",
     unit: "m2", finishing: true, defaultSize: [120, 100],
     variants: [
@@ -1219,7 +1221,7 @@ const PRODUCTS = [
   },
   {
     id: "partisi", nama: "Partisi Aluminium", grup: "interior", jenis: "Produk",
-    img: "foto-produk-partisi.png",
+    img: "img/foto-produk-partisi.jpg",
     desc: "Membagi ruangan rumah, kantor, atau tempat usaha tanpa membangun dinding permanen.",
     unit: "m2", finishing: true, defaultSize: [300, 250],
     variants: [
@@ -1230,7 +1232,7 @@ const PRODUCTS = [
   },
   {
     id: "kanopi", nama: "Kanopi Aluminium", grup: "eksterior", jenis: "Produk",
-    img: "foto-produk-kanopi.png",
+    img: "img/foto-produk-kanopi.jpg",
     desc: "Melindungi teras, carport, atau area usaha dari panas dan hujan, sekaligus menambah tampilan bangunan.",
     unit: "m2", finishing: true, defaultSize: [400, 300],
     variants: [
@@ -1241,7 +1243,7 @@ const PRODUCTS = [
   },
   {
     id: "etalase", nama: "Etalase Aluminium", grup: "interior", jenis: "Produk",
-    img: "foto-produk-etalase.png",
+    img: "img/foto-produk-etalase.jpg", fit: "contain",
     desc: "Etalase rangka aluminium dan kaca untuk toko, apotek, konter, atau kantin.",
     unit: "unit", finishing: true,
     variants: [
@@ -1252,7 +1254,7 @@ const PRODUCTS = [
   },
   {
     id: "custom", nama: "Pembuatan Custom", grup: "jasa", jenis: "Jasa",
-    img: "foto-produk-custom.png",
+    img: "img/foto-produk-custom.jpg",
     desc: "Fabrikasi aluminium di luar katalog: rak, railing, pintu lipat, cover, dan lainnya.",
     unit: "m2", finishing: true, defaultSize: [100, 100],
     variants: [
@@ -1262,7 +1264,7 @@ const PRODUCTS = [
   },
   {
     id: "survei", nama: "Konsultasi & Survei Ukur", grup: "jasa", jenis: "Jasa",
-    img: "foto-produk-survei.png",
+    img: "img/foto-produk-survei.jpg",
     desc: "Tim datang ke lokasi untuk mengukur dan membantu memilih model sebelum Anda memutuskan.",
     unit: "sesi", finishing: false, direct: true,
     variants: [ { id: "s-1", nama: "Survei ukur & konsultasi", ket: "Gratis untuk Kota Malang", harga: 0 } ]
@@ -1312,7 +1314,7 @@ function renderCatalog(filter) {
       : '<button class="btn btn-primary btn-sm" data-config="' + p.id + '">Pilih &amp; hitung</button>';
     return '<article class="card" id="p-' + p.id + '">' +
       '<div class="photo-frame"><span class="frame-label">' + esc(p.nama) + '</span>' +
-        '<img src="' + p.img + '" alt="' + esc(p.nama) + '" loading="lazy" onerror="this.style.display=\'none\'">' +
+        '<img src="' + p.img + '"' + (p.fit === "contain" ? ' class="fit-contain"' : "") + ' alt="' + esc(p.nama) + '" loading="lazy" onerror="this.style.display=\'none\'">' +
         '<span class="card-badge' + (p.jenis === "Jasa" ? " jasa" : "") + '">' + p.jenis + "</span></div>" +
       '<div class="card-body"><h3>' + esc(p.nama) + "</h3><p>" + esc(p.desc) + "</p>" +
         '<div class="card-foot"><div class="price-from">' + price + "</div>" + btn + "</div></div>" +
