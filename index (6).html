@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Alumma — Kusen, Pintu, Jendela & Kanopi Aluminium Malang</title>
+<meta name="description" content="Alumma membuat dan memasang kusen, pintu, jendela, partisi, kanopi, dan etalase aluminium sesuai ukuran di Malang. Cek harga, hitung estimasi, dan pesan online." />
+<meta property="og:title" content="Alumma — Aluminium Malang" />
+<meta property="og:description" content="Kusen, pintu, jendela, partisi, kanopi, dan etalase aluminium sesuai ukuran. Cek harga dan pesan online." />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#0D0E0F" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230D0E0F'/%3E%3Cpath d='M8 24L16 8l8 16' stroke='%236FA1D6' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11 18h10' stroke='%23D08A4F' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #0D0E0F;
+    --bg-raised: #151719;
+    --bg-high: #1B1E21;
+    --line: #2A2D30;
+    --line-strong: #3b4045;
+    --ink: #F2F3F3;
+    --ink-dim: #A6ACB0;
+    --ink-mute: #74797D;
+    --blueprint: #6FA1D6;
+    --blueprint-bright: #8DB8E6;
+    --copper: #D08A4F;
+    --ok: #6CC08B;
+    --warn: #e08a6b;
+    --alu-a: #3a3d40;
+    --alu-b: #6a6d70;
+    --alu-c: #2c2e30;
+    --alu-d: #55585c;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+    --shadow-md: 0 8px 24px rgba(0,0,0,0.35);
+    --shadow-lg: 0 20px 50px rgba(0,0,0,0.45);
+    --header-h: 76px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: var(--header-h); }
+  body {
+    font-family: 'Public Sans', Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+  }
+  body.no-scroll { overflow: hidden; }
+  a { color: inherit; }
+  h1, h2, h3, h4 {
+    font-family: 'Archivo', Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+  .container { width: 92%; max-width: 1180px; margin: 0 auto; }
+  :focus-visible { outline: 2px solid var(--blueprint); outline-offset: 3px; }
+  img, svg { max-width: 100%; }
+  .skip-link {
+    position: absolute; left: 12px; top: -48px; z-index: 500;
+    background: var(--ink); color: var(--bg); padding: 10px 14px; border-radius: 4px;
+    font-weight: 600; text-decoration: none;
+  }
+  .skip-link:focus { top: 12px; }
+
+  /* ===== SCROLL REVEAL ===== */
+  .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.is-visible { opacity: 1; transform: none; }
+  .reveal-stagger > * { opacity: 0; transform: translateY(18px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .reveal-stagger.is-visible > * { opacity: 1; transform: none; }
+  .reveal-stagger.is-visible > *:nth-child(2) { transition-delay: 0.08s; }
+  .reveal-stagger.is-visible > *:nth-child(3) { transition-delay: 0.14s; }
+  .reveal-stagger.is-visible > *:nth-child(4) { transition-delay: 0.2s; }
+  .reveal-stagger.is-visible > *:nth-child(5) { transition-delay: 0.26s; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+
+  /* ===== BUTTONS ===== */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 14px 24px;
+    font-family: 'Archivo', Arial, sans-serif; font-weight: 600; font-size: 15px;
+    border-radius: 4px; border: 1px solid transparent;
+    cursor: pointer; text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  }
+  .btn-primary { background: var(--blueprint); color: #0D0E0F; box-shadow: 0 4px 16px rgba(111,161,214,0.25); }
+  .btn-primary:hover { background: var(--blueprint-bright); transform: translateY(-1px); box-shadow: 0 8px 22px rgba(111,161,214,0.32); }
+  .btn-primary:active { transform: none; }
+  .btn-primary:disabled { opacity: 0.45; cursor: not-allowed; transform: none; box-shadow: none; }
+  .btn-ghost { border-color: var(--line); color: var(--ink); background: transparent; }
+  .btn-ghost:hover { border-color: var(--ink-dim); background: rgba(255,255,255,0.03); transform: translateY(-1px); }
+  .btn-wa { background: #25D366; color: #08240f; }
+  .btn-wa:hover { background: #3be07a; transform: translateY(-1px); }
+  .btn-sm { padding: 10px 16px; font-size: 14px; }
+  .btn-block { width: 100%; }
+
+  /* ===== HEADER ===== */
+  header {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(13,14,15,0.9);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  header.is-scrolled { box-shadow: var(--shadow-md); border-bottom-color: transparent; }
+  .nav { height: var(--header-h); display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+  .logo {
+    font-family: 'Archivo', Arial, sans-serif; font-weight: 800; font-size: 21px;
+    letter-spacing: -0.02em; text-decoration: none; flex-shrink: 0;
+  }
+  .logo em { font-style: normal; color: var(--blueprint); }
+  nav.links ul { display: flex; list-style: none; gap: 26px; }
+  nav.links a { font-size: 14.5px; color: var(--ink-dim); text-decoration: none; transition: color 0.2s ease; white-space: nowrap; }
+  nav.links a:hover, nav.links a.is-active { color: var(--ink); }
+  .nav-links-wrap { display: none; }
+  @media (min-width: 1000px) { .nav-links-wrap { display: block; } }
+  .nav-right { display: flex; align-items: center; gap: 10px; }
+  .nav-cta { display: none; }
+  @media (min-width: 1000px) { .nav-cta { display: inline-flex; padding: 11px 18px; font-size: 14px; } }
+
+  .cart-btn {
+    display: inline-flex; align-items: center; gap: 9px;
+    padding: 9px 13px;
+    background: transparent; border: 1px solid var(--line); border-radius: 4px;
+    color: var(--ink); font-family: 'Archivo', Arial, sans-serif; font-weight: 600; font-size: 14px;
+    cursor: pointer; transition: border-color 0.2s ease, background 0.2s ease;
+  }
+  .cart-btn:hover { border-color: var(--ink-dim); background: rgba(255,255,255,0.03); }
+  .cart-btn .label { display: none; }
+  @media (min-width: 560px) { .cart-btn .label { display: inline; } }
+  .cart-count {
+    min-width: 21px; height: 21px; padding: 0 6px; border-radius: 11px;
+    background: var(--copper); color: #0D0E0F; font-size: 12px; font-weight: 700;
+    display: inline-grid; place-items: center;
+  }
+  .cart-count.bump { animation: bump 0.4s ease; }
+  @keyframes bump { 40% { transform: scale(1.35); } }
+
+  .menu-toggle {
+    display: flex; flex-direction: column; justify-content: center; gap: 5px;
+    width: 38px; height: 38px;
+    background: transparent; border: 1px solid var(--line); border-radius: 3px;
+    cursor: pointer; padding: 0;
+  }
+  @media (min-width: 1000px) { .menu-toggle { display: none; } }
+  .menu-toggle span { display: block; width: 16px; height: 1.5px; margin: 0 auto; background: var(--ink); transition: transform 0.25s ease, opacity 0.25s ease; }
+  .menu-toggle.is-open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+  .menu-toggle.is-open span:nth-child(2) { opacity: 0; }
+  .menu-toggle.is-open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+  .mobile-menu {
+    display: none; max-height: 0; overflow: hidden;
+    background: var(--bg-raised); border-bottom: 1px solid var(--line);
+    transition: max-height 0.3s ease;
+  }
+  @media (max-width: 999px) { .mobile-menu { display: block; } }
+  .mobile-menu.is-open { max-height: 520px; }
+  .mobile-menu ul { list-style: none; padding: 8px 0 4px; }
+  .mobile-menu a {
+    display: block; padding: 13px 0; font-size: 15.5px;
+    color: var(--ink-dim); text-decoration: none; border-bottom: 1px solid var(--line);
+  }
+  .mobile-menu a:hover { color: var(--ink); }
+  .mobile-menu .btn { display: flex; margin: 16px 0 20px; width: 100%; padding: 13px 20px; color: #0D0E0F; border-bottom: 0; }
+
+  /* ===== PHOTO FRAME ===== */
+  .photo-frame {
+    position: relative; overflow: hidden;
+    background: linear-gradient(135deg, var(--alu-a), var(--alu-b) 40%, var(--alu-c) 70%, var(--alu-d));
+    border: 1px solid var(--line);
+  }
+  .photo-frame::before {
+    content: ''; position: absolute; inset: 0;
+    background-image: repeating-linear-gradient(102deg, rgba(255,255,255,0.06) 0px, rgba(255,255,255,0.06) 1px, transparent 1px, transparent 4px);
+    mix-blend-mode: overlay;
+  }
+  .photo-frame::after {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(120% 90% at 20% 10%, rgba(255,255,255,0.10), transparent 60%);
+  }
+  /* Foto asli otomatis muncul jika file dengan nama yang sama ada di folder ini.
+     Jika belum ada, tekstur aluminium di bawahnya yang tampil. */
+  .photo-frame img {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; z-index: 1; transition: transform 0.5s ease;
+  }
+  .photo-caption {
+    position: absolute; left: 0; right: 0; bottom: 0; z-index: 2;
+    padding: 16px 18px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6), transparent);
+    font-family: 'Archivo', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #fff;
+  }
+  .frame-label {
+    position: absolute; left: 16px; bottom: 14px; z-index: 0;
+    font-family: 'Archivo', Arial, sans-serif; font-weight: 700; font-size: 13px;
+    color: rgba(255,255,255,0.55); letter-spacing: 0.06em; text-transform: uppercase;
+  }
+
+  /* ===== SECTIONS ===== */
+  section { padding: 88px 0; }
+  .band-raised { background: var(--bg-raised); }
+  .section-head { max-width: 60ch; margin-bottom: 44px; }
+  .kicker {
+    display: inline-flex; align-items: center; gap: 8px;
+    color: var(--blueprint); font-weight: 600; font-size: 14px; margin-bottom: 10px;
+  }
+  .kicker::before { content: ''; width: 18px; height: 1px; background: var(--blueprint); }
+  .section-head h2 { font-size: clamp(26px, 3vw, 34px); margin-bottom: 12px; }
+  .section-head p { color: var(--ink-dim); font-size: 16.5px; }
+  .section-head-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 28px; }
+  .section-head-row .section-head { margin-bottom: 0; }
+
+  /* ===== HERO ===== */
+  .hero { position: relative; overflow: hidden; padding: 64px 0 56px; }
+  .hero-bg-blob { position: absolute; border-radius: 50%; filter: blur(60px); pointer-events: none; z-index: 0; }
+  .hero-bg-blob.b1 {
+    width: 380px; height: 380px; top: -120px; left: 10%;
+    background: radial-gradient(circle, rgba(111,161,214,0.16), transparent 70%);
+    animation: float-blob-1 16s ease-in-out infinite;
+  }
+  .hero-bg-blob.b2 {
+    width: 300px; height: 300px; bottom: -100px; right: 8%;
+    background: radial-gradient(circle, rgba(208,138,79,0.12), transparent 70%);
+    animation: float-blob-2 20s ease-in-out infinite;
+  }
+  @keyframes float-blob-1 { 50% { transform: translate(40px, 30px) scale(1.1); } }
+  @keyframes float-blob-2 { 50% { transform: translate(-30px, -25px) scale(1.08); } }
+  .hero-grid {
+    position: relative; z-index: 1;
+    display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center;
+  }
+  @media (max-width: 860px) { .hero-grid { grid-template-columns: 1fr; gap: 40px; } }
+  .hero-eyebrow-line {
+    display: flex; align-items: center; gap: 10px;
+    color: var(--blueprint); font-size: 14px; font-weight: 600; margin-bottom: 18px;
+  }
+  .hero h1 { font-size: clamp(34px, 4.6vw, 50px); max-width: 14ch; margin-bottom: 22px; }
+  .hero p.lead { color: var(--ink-dim); font-size: 18px; max-width: 46ch; margin-bottom: 32px; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; }
+  .hero-content { animation: fade-up 0.7s ease 0.1s both; }
+  .hero-photo-wrap { position: relative; perspective: 800px; }
+  .hero-photo-wrap::before {
+    content: ''; position: absolute; inset: -30px -30px auto auto; width: 60%; height: 60%;
+    background: radial-gradient(circle, rgba(111,161,214,0.18), transparent 70%);
+    filter: blur(10px); z-index: -1;
+  }
+  .hero-photo { aspect-ratio: 4 / 5; border-radius: 8px; box-shadow: var(--shadow-lg); animation: fade-up 0.7s ease both; }
+  @media (max-width: 860px) { .hero-photo { aspect-ratio: 16 / 10; } }
+  .hero-photo-wrap:hover img { transform: scale(1.045); }
+  @keyframes fade-up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+  .perks {
+    position: relative; z-index: 1;
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    margin-top: 56px; border-top: 1px solid var(--line);
+  }
+  .perk { padding: 20px 22px 0 0; }
+  .perk svg { color: var(--blueprint); margin-bottom: 10px; display: block; }
+  .perk strong { display: block; font-family: 'Archivo', Arial, sans-serif; font-size: 15.5px; margin-bottom: 3px; }
+  .perk span { color: var(--ink-dim); font-size: 14px; }
+  @media (max-width: 860px) { .perks { grid-template-columns: 1fr 1fr; row-gap: 6px; } }
+  @media (max-width: 460px) { .perks { grid-template-columns: 1fr; } }
+
+  /* ===== TICKER ===== */
+  .ticker-strip { overflow: hidden; background: var(--bg-raised); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 14px 0; }
+  .ticker-track {
+    display: inline-flex; white-space: nowrap; width: max-content;
+    animation: ticker-scroll 26s linear infinite;
+    font-family: 'Archivo', Arial, sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 0.03em; color: var(--ink-dim);
+  }
+  .ticker-track span { padding: 0 10px; }
+  .ticker-track .dot { color: var(--blueprint); }
+  @keyframes ticker-scroll { to { transform: translateX(-50%); } }
+
+  /* ===== TENTANG ===== */
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+  @media (max-width: 800px) { .about-grid { grid-template-columns: 1fr; gap: 36px; } }
+  .about-grid p { color: var(--ink-dim); margin-bottom: 16px; max-width: 52ch; }
+  .spec-list { border-top: 1px solid var(--line); }
+  .spec-row {
+    display: grid; grid-template-columns: 140px 1fr; gap: 20px;
+    padding: 18px 14px; margin: 0 -14px;
+    border-bottom: 1px solid var(--line); border-radius: 6px; transition: background 0.25s ease;
+  }
+  .spec-row:hover { background: rgba(255,255,255,0.025); }
+  .spec-row dt { font-family: 'Archivo', Arial, sans-serif; font-weight: 600; font-size: 14.5px; }
+  .spec-row dd { color: var(--ink-dim); font-size: 15px; }
+  @media (max-width: 480px) { .spec-row { grid-template-columns: 1fr; gap: 4px; } }
+
+  /* ===== KATALOG ===== */
+  .filter-bar { display: flex; flex-wrap: wrap; gap: 10px; }
+  .chip {
+    padding: 8px 16px; border: 1px solid var(--line); border-radius: 999px;
+    background: transparent; color: var(--ink-dim);
+    font-family: 'Archivo', Arial, sans-serif; font-weight: 600; font-size: 14px;
+    cursor: pointer; transition: all 0.2s ease;
+  }
+  .chip:hover { color: var(--ink); border-color: var(--ink-dim); }
+  .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .catalog { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  @media (max-width: 980px) { .catalog { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 620px) { .catalog { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--bg-high); border: 1px solid var(--line); border-radius: 8px;
+    overflow: hidden; display: flex; flex-direction: column;
+    scroll-margin-top: 110px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    animation: fade-up 0.4s ease both;
+  }
+  .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--line-strong); }
+  .card:hover .photo-frame img { transform: scale(1.05); }
+  .card.is-highlight { border-color: var(--blueprint); box-shadow: 0 0 0 3px rgba(111,161,214,0.28); }
+  .card .photo-frame { aspect-ratio: 16 / 10; border: 0; border-bottom: 1px solid var(--line); }
+  .card-badge {
+    position: absolute; top: 12px; left: 12px; z-index: 2;
+    background: rgba(13,14,15,0.82); border: 1px solid var(--line);
+    color: var(--ink-dim); font-size: 12px; font-weight: 600;
+    padding: 3px 10px; border-radius: 999px;
+  }
+  .card-badge.jasa { color: var(--copper); }
+  .card-body { padding: 20px 20px 18px; display: flex; flex-direction: column; flex: 1; }
+  .card-body h3 { font-size: 19px; margin-bottom: 8px; }
+  .card-body p { color: var(--ink-dim); font-size: 14.5px; flex: 1; margin-bottom: 18px; }
+  .card-foot { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .price-from { font-size: 12.5px; color: var(--ink-mute); line-height: 1.35; }
+  .price-from b { display: block; font-family: 'Archivo', Arial, sans-serif; font-size: 19px; color: var(--ink); }
+  .price-from b.free { color: var(--ok); }
+  .catalog-note { margin-top: 22px; color: var(--ink-mute); font-size: 14px; }
+  .catalog-note a { color: var(--blueprint); }
+
+  /* ===== DAFTAR HARGA ===== */
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--bg-raised); }
+  .price-table { width: 100%; border-collapse: collapse; min-width: 640px; font-size: 14.5px; }
+  .price-table th, .price-table td { padding: 12px 18px; text-align: left; border-bottom: 1px solid var(--line); }
+  .price-table thead th {
+    font-family: 'Archivo', Arial, sans-serif; font-size: 12.5px; font-weight: 600;
+    color: var(--ink-mute); text-transform: uppercase; letter-spacing: 0.05em; background: var(--bg-high);
+  }
+  .price-table .harga { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .price-table td.harga { font-weight: 600; }
+  .price-table td.satuan { color: var(--ink-dim); white-space: nowrap; }
+  .price-table td.ket { color: var(--ink-dim); }
+  .price-table tr.group td {
+    font-family: 'Archivo', Arial, sans-serif; font-weight: 700; font-size: 14px;
+    color: var(--blueprint); background: rgba(111,161,214,0.05); padding-top: 14px; padding-bottom: 10px;
+  }
+  .price-table tbody tr:not(.group):hover td { background: rgba(255,255,255,0.02); }
+  .price-table tbody tr:last-child td { border-bottom: 0; }
+  .price-note { color: var(--ink-mute); font-size: 13.5px; margin-top: 14px; max-width: 86ch; }
+
+  /* ===== JASA ===== */
+  .jasa-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
+  @media (max-width: 860px) { .jasa-grid { grid-template-columns: 1fr; } }
+  .jasa-item { padding: 26px 26px 26px 0; border-bottom: 1px solid var(--line); }
+  @media (min-width: 861px) { .jasa-item + .jasa-item { padding-left: 26px; border-left: 1px solid var(--line); } }
+  .jasa-item .tag { font-family: 'Archivo', Arial, sans-serif; font-weight: 700; font-size: 13px; color: var(--copper); margin-bottom: 10px; }
+  .jasa-item h3 { font-size: 19px; margin-bottom: 8px; }
+  .jasa-item p { color: var(--ink-dim); font-size: 14.5px; margin-bottom: 14px; }
+  .jasa-item .tarif { font-family: 'Archivo', Arial, sans-serif; font-weight: 700; font-size: 17px; }
+  .jasa-item .tarif small { display: block; font-family: 'Public Sans', Arial, sans-serif; font-weight: 400; color: var(--ink-mute); font-size: 13px; }
+
+  /* ===== GALERI ===== */
+  .gallery-carousel {
+    overflow: hidden; position: relative;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  }
+  .gallery-track { display: flex; gap: 18px; width: max-content; animation: marquee-scroll 36s linear infinite; }
+  .gallery-carousel:hover .gallery-track { animation-play-state: paused; }
+  @keyframes marquee-scroll { to { transform: translateX(-50%); } }
+  .gallery-item { flex: 0 0 300px; aspect-ratio: 4 / 3; border-radius: 8px; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  .gallery-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+  .gallery-item:hover img { transform: scale(1.045); }
+  @media (max-width: 600px) { .gallery-item { flex-basis: 240px; } }
+
+  /* ===== CARA PESAN ===== */
+  .steps { display: grid; grid-template-columns: repeat(5, 1fr); position: relative; padding-top: 20px; }
+  .steps::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: var(--line); }
+  @media (max-width: 900px) { .steps { grid-template-columns: 1fr 1fr; row-gap: 40px; } }
+  @media (max-width: 520px) { .steps { grid-template-columns: 1fr; } }
+  .step { position: relative; padding-right: 18px; }
+  .step::before {
+    content: ''; position: absolute; top: -20px; left: 0; width: 1px; height: 12px;
+    background: var(--blueprint); animation: tick-pulse 2.4s ease-in-out infinite;
+  }
+  @keyframes tick-pulse { 50% { opacity: 0.5; } }
+  .step .tag { font-family: 'Archivo', Arial, sans-serif; font-weight: 700; font-size: 13px; color: var(--blueprint); margin-bottom: 10px; letter-spacing: 0.02em; }
+  .step h3 { font-size: 17.5px; margin-bottom: 8px; }
+  .step p { color: var(--ink-dim); font-size: 14.5px; max-width: 28ch; }
+
+  /* ===== PEMBAYARAN & KETENTUAN ===== */
+  .terms { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  @media (max-width: 860px) { .terms { grid-template-columns: 1fr; } }
+  .term { background: var(--bg-raised); border: 1px solid var(--line); border-radius: 8px; padding: 24px; }
+  .term h3 { font-size: 17px; margin-bottom: 12px; }
+  .term ul { list-style: none; }
+  .term li { color: var(--ink-dim); font-size: 14.5px; padding: 8px 0 8px 18px; position: relative; border-top: 1px solid var(--line); }
+  .term li:first-child { border-top: 0; }
+  .term li::before { content: ''; position: absolute; left: 0; top: 18px; width: 7px; height: 1px; background: var(--copper); }
+  .term li b { color: var(--ink); font-weight: 600; }
+  .promo-code {
+    display: inline-block; font-family: 'Archivo', Arial, sans-serif; font-weight: 700;
+    border: 1px dashed var(--copper); color: var(--copper);
+    padding: 0 8px; border-radius: 3px; letter-spacing: 0.04em;
+  }
+
+  /* ===== KONTAK ===== */
+  .contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; }
+  @media (max-width: 800px) { .contact-grid { grid-template-columns: 1fr; gap: 40px; } }
+  .contact-info h2 { font-size: clamp(26px, 3vw, 32px); margin-bottom: 16px; }
+  .contact-info > p { color: var(--ink-dim); margin-bottom: 32px; max-width: 46ch; }
+  .contact-item {
+    display: flex; gap: 16px; padding: 18px 14px; margin: 0 -14px;
+    border-top: 1px solid var(--line); border-radius: 6px; text-decoration: none;
+    transition: background 0.25s ease;
+  }
+  .contact-item:hover { background: rgba(255,255,255,0.025); }
+  .contact-item:last-child { border-bottom: 1px solid var(--line); }
+  .contact-item svg { flex-shrink: 0; color: var(--blueprint); margin-top: 2px; transition: transform 0.25s ease; }
+  .contact-item:hover svg { transform: scale(1.1); }
+  .contact-item strong { display: block; font-size: 14px; color: var(--ink-dim); font-weight: 600; margin-bottom: 3px; }
+  .contact-item span { color: var(--ink); font-size: 15.5px; }
+  .form-card { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 34px; box-shadow: var(--shadow-md); }
+  @media (max-width: 480px) { .form-card { padding: 24px; } }
+  .form-card h3 { font-size: 19px; margin-bottom: 6px; }
+  .form-card > p { color: var(--ink-dim); font-size: 14.5px; margin-bottom: 22px; }
+  #contact-msg { margin-top: 14px; font-size: 14px; color: var(--blueprint); min-height: 1.2em; }
+
+  /* ===== FORM ===== */
+  .form-row { margin-bottom: 16px; }
+  .form-row label, .form-label { display: block; margin-bottom: 7px; font-size: 13.5px; font-weight: 600; color: var(--ink); }
+  .form-row label .optional { color: var(--ink-mute); font-weight: 400; }
+  .form-row input, .form-row textarea, .form-row select {
+    width: 100%; padding: 12px 13px;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 3px;
+    color: var(--ink); font-family: inherit; font-size: 15px; outline: none;
+    transition: border-color 0.2s ease;
+  }
+  .form-row select {
+    appearance: none; padding-right: 36px;
+    background-image: linear-gradient(45deg, transparent 50%, var(--ink-dim) 50%), linear-gradient(135deg, var(--ink-dim) 50%, transparent 50%);
+    background-position: calc(100% - 18px) 52%, calc(100% - 13px) 52%;
+    background-size: 5px 5px; background-repeat: no-repeat;
+  }
+  .form-row input::placeholder, .form-row textarea::placeholder { color: var(--ink-mute); }
+  .form-row input:focus, .form-row textarea:focus, .form-row select:focus { border-color: var(--blueprint); }
+  .form-row input:invalid:not(:placeholder-shown) { border-color: #b8664a; }
+  .form-row textarea { min-height: 100px; resize: vertical; }
+  .form-hint { font-size: 12.5px; color: var(--ink-mute); margin-top: 6px; }
+  .field-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .field-grid.two { grid-template-columns: 1fr 1fr; }
+  @media (max-width: 520px) { .field-grid { grid-template-columns: 1fr 1fr; } .field-grid > :last-child:nth-child(3) { grid-column: 1 / -1; } }
+  input[type="checkbox"], input[type="radio"] { accent-color: var(--blueprint); }
+
+  .opt-list { display: grid; gap: 8px; margin-bottom: 18px; }
+  .opt {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 14px; border: 1px solid var(--line); border-radius: 6px;
+    cursor: pointer; transition: border-color 0.2s ease, background 0.2s ease;
+  }
+  .form-row .opt { display: flex; margin-bottom: 0; font-weight: 400; font-size: 14.5px; }
+  .opt:hover { border-color: var(--line-strong); }
+  .opt:has(input:checked) { border-color: var(--blueprint); background: rgba(111,161,214,0.07); }
+  .opt input { flex-shrink: 0; width: 16px; height: 16px; }
+  .opt .opt-name { flex: 1; font-size: 14.5px; }
+  .opt .opt-name small { display: block; color: var(--ink-mute); font-size: 12.5px; }
+  .opt .opt-price { text-align: right; font-family: 'Archivo', Arial, sans-serif; font-weight: 600; font-size: 14px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .opt .opt-price small { display: block; color: var(--ink-mute); font-family: 'Public Sans', Arial, sans-serif; font-weight: 400; font-size: 12px; }
+  .opt-inline { display: flex; flex-wrap: wrap; gap: 8px; }
+  .opt-inline .opt { flex: 1 1 140px; }
+
+  /* ===== DIALOG ===== */
+  dialog.sheet {
+    width: min(640px, 94vw); max-height: 92vh; margin: auto;
+    background: var(--bg-raised); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 10px; padding: 0;
+    box-shadow: var(--shadow-lg); overflow: hidden;
+  }
+  dialog.sheet.wide { width: min(920px, 95vw); }
+  dialog.sheet[open] { display: flex; flex-direction: column; animation: sheet-in 0.25s ease; }
+  @keyframes sheet-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  dialog::backdrop { background: rgba(0,0,0,0.62); backdrop-filter: blur(2px); }
+  .sheet-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; padding: 20px 24px; border-bottom: 1px solid var(--line); }
+  .sheet-head h2 { font-size: 21px; margin-bottom: 4px; }
+  .sheet-head p { color: var(--ink-dim); font-size: 14px; }
+  .sheet-body { padding: 22px 24px 8px; overflow-y: auto; flex: 1; }
+  .sheet-foot { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px 24px; border-top: 1px solid var(--line); background: var(--bg-high); }
+  .icon-btn {
+    flex-shrink: 0; width: 36px; height: 36px; display: grid; place-items: center;
+    background: transparent; border: 1px solid var(--line); border-radius: 4px; color: var(--ink-dim); cursor: pointer;
+  }
+  .icon-btn:hover { color: var(--ink); border-color: var(--ink-dim); }
+  .estimate { line-height: 1.3; }
+  .estimate small { display: block; color: var(--ink-mute); font-size: 12.5px; }
+  .estimate b { font-family: 'Archivo', Arial, sans-serif; font-size: 22px; font-variant-numeric: tabular-nums; }
+  .estimate .calc { display: block; color: var(--ink-dim); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+  .section-label { font-family: 'Archivo', Arial, sans-serif; font-weight: 600; font-size: 13px; color: var(--ink-mute); text-transform: uppercase; letter-spacing: 0.06em; margin: 4px 0 10px; }
+
+  /* ===== KERANJANG ===== */
+  .overlay { position: fixed; inset: 0; z-index: 250; background: rgba(0,0,0,0.55); opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+  .overlay.is-open { opacity: 1; pointer-events: auto; }
+  .drawer {
+    position: fixed; top: 0; right: 0; z-index: 300;
+    width: min(440px, 100vw); height: 100%;
+    background: var(--bg-raised); border-left: 1px solid var(--line); box-shadow: var(--shadow-lg);
+    display: flex; flex-direction: column;
+    transform: translateX(102%); transition: transform 0.3s ease; visibility: hidden;
+  }
+  .drawer.is-open { transform: none; visibility: visible; }
+  .drawer-head { display: flex; justify-content: space-between; align-items: center; padding: 20px 22px; border-bottom: 1px solid var(--line); }
+  .drawer-head h2 { font-size: 20px; }
+  .drawer-body { flex: 1; overflow-y: auto; }
+  .drawer-foot { padding: 14px 22px 18px; border-top: 1px solid var(--line); background: var(--bg-raised); }
+  .cart-items { padding: 4px 22px 8px; }
+  .cart-item { padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .cart-item-top { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
+  .cart-item h4 { font-size: 15px; }
+  .cart-item .line-total { font-family: 'Archivo', Arial, sans-serif; font-weight: 600; font-size: 15px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .cart-item .meta { color: var(--ink-dim); font-size: 13px; line-height: 1.5; }
+  .cart-item-bottom { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 10px; }
+  .qty { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 4px; }
+  .qty button { width: 30px; height: 30px; background: transparent; border: 0; color: var(--ink); cursor: pointer; font-size: 16px; }
+  .qty button:hover { background: rgba(255,255,255,0.05); }
+  .qty span { min-width: 30px; text-align: center; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .link-btn { background: none; border: 0; color: var(--ink-mute); font-size: 13px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; font-family: inherit; }
+  .link-btn:hover { color: var(--ink); }
+  .cart-empty { padding: 56px 10px; text-align: center; color: var(--ink-dim); }
+  .cart-empty svg { color: var(--ink-mute); margin-bottom: 14px; }
+  .cart-empty p { margin-bottom: 18px; }
+  .cart-summary { padding: 16px 22px 8px; border-top: 1px solid var(--line); background: var(--bg-high); }
+  .cart-opts { display: grid; gap: 10px; margin-bottom: 12px; }
+  .check-row { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; cursor: pointer; }
+  .check-row input { margin-top: 4px; width: 16px; height: 16px; flex-shrink: 0; }
+  .check-row small { display: block; color: var(--ink-mute); font-size: 12.5px; }
+  .cart-summary .form-row { margin-bottom: 0; }
+  .cart-summary .form-row select, .cart-summary .form-row input { padding: 9px 11px; font-size: 14px; }
+  .promo { display: flex; gap: 8px; }
+  .promo .btn { padding: 9px 14px; font-size: 13.5px; }
+  .promo-msg { font-size: 12.5px; margin-top: 5px; min-height: 1em; }
+  .promo-msg.ok { color: var(--ok); }
+  .promo-msg.err { color: var(--warn); }
+  .sum-row { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--ink-dim); padding: 3px 0; }
+  .sum-row span:last-child { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .sum-row.disc span:last-child { color: var(--ok); }
+  .sum-row.total { color: var(--ink); font-family: 'Archivo', Arial, sans-serif; font-weight: 700; font-size: 18px; padding-top: 10px; margin-top: 6px; border-top: 1px dashed var(--line); }
+  .sum-row.dp { color: var(--copper); font-weight: 600; }
+  .sum-block { margin: 12px 0 14px; }
+
+  /* ===== CHECKOUT & KONFIRMASI ===== */
+  .checkout-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 28px; }
+  @media (max-width: 760px) { .checkout-grid { grid-template-columns: 1fr; } }
+  .order-box { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 18px; align-self: start; }
+  .order-box h3 { font-size: 15px; margin-bottom: 10px; }
+  .order-line { display: flex; justify-content: space-between; gap: 12px; font-size: 13.5px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+  .order-line span:first-child { color: var(--ink-dim); }
+  .order-line span:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .agree { font-size: 13.5px; color: var(--ink-dim); margin: 6px 0 14px; }
+  #checkout-msg { font-size: 13.5px; color: var(--warn); min-height: 1.2em; margin-top: 8px; }
+  .confirm-head { text-align: center; padding: 6px 0 18px; }
+  .confirm-icon {
+    width: 58px; height: 58px; margin: 0 auto 14px; border-radius: 50%; display: grid; place-items: center;
+    background: rgba(108,192,139,0.12); color: var(--ok); border: 1px solid rgba(108,192,139,0.4);
+  }
+  .confirm-head h2 { font-size: 23px; margin-bottom: 6px; }
+  .confirm-head p { color: var(--ink-dim); font-size: 14.5px; }
+  .order-id { display: inline-block; margin-top: 10px; padding: 6px 14px; font-family: 'Archivo', Arial, sans-serif; font-weight: 700; letter-spacing: 0.04em; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); }
+  .next-steps { list-style: none; counter-reset: s; margin: 14px 0 4px; }
+  .next-steps li { counter-increment: s; position: relative; padding: 8px 0 8px 34px; font-size: 14px; color: var(--ink-dim); border-top: 1px solid var(--line); }
+  .next-steps li::before {
+    content: counter(s); position: absolute; left: 0; top: 8px; width: 22px; height: 22px; border-radius: 50%;
+    display: grid; place-items: center; font-size: 12px; font-weight: 700; color: var(--blueprint); border: 1px solid var(--blueprint);
+  }
+  .confirm-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0 18px; }
+  .confirm-actions .btn { flex: 1 1 200px; }
+
+  /* ===== TOAST, WA, FOOTER ===== */
+  .toast {
+    position: fixed; left: 50%; bottom: 26px; z-index: 400;
+    transform: translate(-50%, 30px); opacity: 0; pointer-events: none;
+    display: flex; align-items: center; gap: 14px; max-width: 92vw;
+    padding: 12px 14px 12px 18px; border-radius: 6px;
+    background: var(--ink); color: var(--bg); font-size: 14.5px; font-weight: 600;
+    box-shadow: var(--shadow-lg); transition: all 0.3s ease;
+  }
+  .toast.show { transform: translate(-50%, 0); opacity: 1; pointer-events: auto; }
+  .toast button { background: var(--bg); color: var(--ink); border: 0; border-radius: 4px; padding: 7px 12px; font: 600 13px 'Archivo', Arial, sans-serif; cursor: pointer; white-space: nowrap; }
+  .wa-float {
+    position: fixed; right: 22px; bottom: 22px; z-index: 90;
+    width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center;
+    background: #25D366; color: #08240f; box-shadow: var(--shadow-md); transition: transform 0.2s ease;
+  }
+  .wa-float:hover { transform: scale(1.07); }
+
+  footer { border-top: 1px solid var(--line); padding: 56px 0 32px; }
+  .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; padding-bottom: 36px; border-bottom: 1px solid var(--line); }
+  @media (max-width: 760px) { .footer-grid { grid-template-columns: 1fr 1fr; } .footer-brand { grid-column: 1 / -1; } }
+  .footer-brand p { color: var(--ink-dim); font-size: 14.5px; max-width: 36ch; margin-top: 10px; }
+  .footer-col h4 { font-size: 14px; margin-bottom: 12px; }
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 8px; }
+  .footer-col a, .footer-col span { color: var(--ink-dim); font-size: 14px; text-decoration: none; }
+  .footer-col a:hover { color: var(--ink); }
+  .footer-bottom { padding-top: 22px; color: var(--ink-mute); font-size: 13.5px; }
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Lewati ke konten</a>
+
+<!-- ================= HEADER ================= -->
+<header id="site-header">
+  <div class="container nav">
+    <a href="#home" class="logo">Alu<em>mma</em></a>
+    <div class="nav-links-wrap">
+      <nav class="links" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#produk">Produk &amp; Harga</a></li>
+          <li><a href="#jasa">Jasa</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#cara-pesan">Cara Pesan</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="nav-right">
+      <button class="cart-btn" id="cart-open" aria-label="Buka keranjang">
+        <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 3h2.2l1.9 9.2a1.5 1.5 0 001.5 1.2h6.9a1.5 1.5 0 001.4-1.1L17.5 6H5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="17" r="1.2" fill="currentColor"/><circle cx="14.5" cy="17" r="1.2" fill="currentColor"/></svg>
+        <span class="label">Keranjang</span>
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+      <a href="#produk" class="btn btn-primary nav-cta">Pesan Online</a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="container">
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#produk">Produk &amp; Harga</a></li>
+        <li><a href="#jasa">Jasa</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#cara-pesan">Cara Pesan</a></li>
+        <li><a href="#pembayaran">Pembayaran</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <a href="#produk" class="btn btn-primary">Pesan Online</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-bg-blob b1" aria-hidden="true"></div>
+  <div class="hero-bg-blob b2" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow-line">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 18L18 2M2 2h6M2 2v6M18 18h-6M18 18v-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Fabrikasi aluminium sesuai ukuran</span>
+        </div>
+        <h1>Kusen, pintu, dan jendela yang pas di tempatnya</h1>
+        <p class="lead">
+          Alumma mengukur, memotong, dan memasang aluminium sesuai bukaan
+          rumah atau ruang usaha Anda. Cek harganya sekarang, hitung estimasi
+          sesuai ukuran, lalu pesan langsung dari website ini.
+        </p>
+        <div class="hero-actions">
+          <a href="#produk" class="btn btn-primary">Cek harga &amp; pesan</a>
+          <a href="#kontak" class="btn btn-ghost">Konsultasi gratis</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="photo-frame hero-photo">
+          <img src="foto-hero.png" alt="Gulungan aluminium di gudang produksi" onerror="this.style.display='none'">
+          <div class="photo-caption">Material aluminium — siap dipotong sesuai ukuran</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="perks">
+      <div class="perk">
+        <svg width="22" height="22" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 18L18 2M2 2h6M2 2v6M18 18h-6M18 18v-6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <strong>Survei ukur gratis</strong>
+        <span>Untuk lokasi di Kota Malang</span>
+      </div>
+      <div class="perk">
+        <svg width="22" height="22" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="2.5" y="5" width="15" height="10.5" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M2.5 8.5h15" stroke="currentColor" stroke-width="1.4"/></svg>
+        <strong>DP 50%</strong>
+        <span>Pelunasan setelah terpasang</span>
+      </div>
+      <div class="perk">
+        <svg width="22" height="22" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2l6 2.5v5c0 4-2.7 6.8-6 8.5-3.3-1.7-6-4.5-6-8.5v-5L10 2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M7 10l2 2 4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <strong>Garansi pemasangan 1 tahun</strong>
+        <span>Rel, engsel, dan kebocoran</span>
+      </div>
+      <div class="perk">
+        <svg width="22" height="22" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.4"/><path d="M10 5.5V10l3 2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <strong>Produksi 7–14 hari kerja</strong>
+        <span>Dihitung setelah DP diterima</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TICKER ================= -->
+<div class="ticker-strip" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Kusen Aluminium</span><span class="dot">•</span>
+    <span>Pintu Aluminium</span><span class="dot">•</span>
+    <span>Jendela Aluminium</span><span class="dot">•</span>
+    <span>Partisi Aluminium</span><span class="dot">•</span>
+    <span>Kanopi Aluminium</span><span class="dot">•</span>
+    <span>Etalase Aluminium</span><span class="dot">•</span>
+    <span>Custom Aluminium</span><span class="dot">•</span>
+    <span>Kusen Aluminium</span><span class="dot">•</span>
+    <span>Pintu Aluminium</span><span class="dot">•</span>
+    <span>Jendela Aluminium</span><span class="dot">•</span>
+    <span>Partisi Aluminium</span><span class="dot">•</span>
+    <span>Kanopi Aluminium</span><span class="dot">•</span>
+    <span>Etalase Aluminium</span><span class="dot">•</span>
+    <span>Custom Aluminium</span><span class="dot">•</span>
+  </div>
+</div>
+
+<!-- ================= TENTANG ================= -->
+<section id="tentang">
+  <div class="container">
+    <div class="about-grid reveal">
+      <div>
+        <div class="section-head" style="margin-bottom:0;">
+          <div class="kicker">Tentang Alumma</div>
+          <h2>Dikerjakan dari ukuran yang sebenarnya, bukan dari katalog</h2>
+        </div>
+        <p style="margin-top:22px;">
+          Alumma (Aluminium Malang) menyediakan produk dan jasa konstruksi aluminium —
+          kusen, pintu, jendela, partisi, kanopi, dan etalase — untuk rumah, ruko,
+          kantor, hingga bangunan komersial. Setiap pekerjaan dimulai dari pengukuran
+          langsung di lokasi, sehingga hasil akhirnya menyesuaikan bentuk ruangan yang sebenarnya.
+        </p>
+        <p>
+          Kami berbasis di Malang dan melayani Malang Raya, dari renovasi rumah tinggal
+          hingga proyek ruko dan tempat usaha, dengan mengutamakan kerapian pengerjaan
+          dan pelayanan yang baik.
+        </p>
+      </div>
+      <dl class="spec-list">
+        <div class="spec-row"><dt>Material</dt><dd>Aluminium dengan finishing natural silver, powder coating, atau anodized, dipilih sesuai kebutuhan dan bujet.</dd></div>
+        <div class="spec-row"><dt>Pengukuran</dt><dd>Dilakukan langsung di lokasi sebelum produksi, bukan berdasarkan ukuran standar.</dd></div>
+        <div class="spec-row"><dt>Konsultasi</dt><dd>Diskusi kebutuhan, desain, dan konsep bersama pelanggan sebelum pekerjaan dimulai.</dd></div>
+        <div class="spec-row"><dt>Cakupan</dt><dd>Kota Malang, Kabupaten Malang, dan Kota Batu, untuk proyek rumah maupun usaha.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUK & HARGA (KATALOG) ================= -->
+<section class="band-raised" id="produk">
+  <div class="container">
+    <div class="section-head-row">
+      <div class="section-head">
+        <div class="kicker">Produk &amp; Harga</div>
+        <h2>Pilih produk, hitung harganya, pesan dari rumah</h2>
+        <p>Harga yang tertera adalah harga mulai. Klik <b>Pilih &amp; hitung</b> untuk memilih model, finishing, dan memasukkan ukuran — estimasi harga muncul seketika.</p>
+      </div>
+      <div class="filter-bar" role="group" aria-label="Filter katalog">
+        <button class="chip" data-filter="semua" aria-pressed="true">Semua</button>
+        <button class="chip" data-filter="pintu-jendela" aria-pressed="false">Kusen, Pintu &amp; Jendela</button>
+        <button class="chip" data-filter="interior" aria-pressed="false">Partisi &amp; Etalase</button>
+        <button class="chip" data-filter="eksterior" aria-pressed="false">Kanopi</button>
+        <button class="chip" data-filter="jasa" aria-pressed="false">Jasa</button>
+      </div>
+    </div>
+
+    <div class="catalog" id="catalog"></div>
+    <p class="catalog-note">Belum yakin ukurannya? Pesan <a href="#" id="note-survei">survei ukur gratis</a> dulu, atau lihat <a href="#harga">daftar harga lengkap</a>.</p>
+  </div>
+</section>
+
+<!-- ================= DAFTAR HARGA ================= -->
+<section id="harga">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Daftar Harga</div>
+      <h2>Harga jual produk dan jasa</h2>
+      <p>Harga dasar finishing natural silver, sudah termasuk biaya pembuatan dan kaca 5 mm untuk produk berkaca. Berlaku untuk Malang Raya.</p>
+    </div>
+    <div class="table-wrap reveal">
+      <table class="price-table">
+        <thead><tr><th>Produk / Jasa</th><th>Keterangan</th><th class="harga">Harga</th><th>Satuan</th></tr></thead>
+        <tbody id="price-body"></tbody>
+      </table>
+    </div>
+    <p class="price-note">
+      Finishing powder coating (putih/hitam) +10%, anodized (coklat/champagne) +15%.
+      Produk per m² dihitung minimal 1 m² per unit. Harga di website adalah estimasi;
+      harga final ditetapkan setelah survei ukur dan tercantum di invoice.
+    </p>
+  </div>
+</section>
+
+<!-- ================= JASA ================= -->
+<section class="band-raised" id="jasa">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Jasa Alumma</div>
+      <h2>Tiga layanan yang menyertai setiap pesanan</h2>
+      <p>Jasa bisa diambil bersama produk atau terpisah. Pemasangan dipilih di keranjang sebelum checkout.</p>
+    </div>
+    <div class="jasa-grid reveal-stagger">
+      <div class="jasa-item">
+        <div class="tag">01 — Konsultasi &amp; Perencanaan</div>
+        <h3>Survei ukur dan diskusi desain</h3>
+        <p>Tim datang ke lokasi, mengukur bukaan, dan membantu menentukan jenis produk, desain, serta finishing yang sesuai dengan kondisi bangunan.</p>
+        <div class="tarif">Gratis<small>Kota Malang. Kab. Malang/Batu dikenakan transport Rp100.000.</small></div>
+      </div>
+      <div class="jasa-item">
+        <div class="tag">02 — Pembuatan Produk</div>
+        <h3>Fabrikasi sesuai ukuran &amp; desain</h3>
+        <p>Semua harga produk sudah termasuk pembuatan. Untuk bentuk khusus seperti rak, railing, atau pintu lipat, pilih <b>Pembuatan Custom</b> di katalog.</p>
+        <div class="tarif">Mulai Rp750.000/m²<small>Untuk pekerjaan custom di luar katalog.</small></div>
+      </div>
+      <div class="jasa-item">
+        <div class="tag">03 — Pemasangan</div>
+        <h3>Dipasang tim Alumma</h3>
+        <p>Pemasangan kusen, pintu, jendela, partisi, kanopi, dan etalase dengan memperhatikan kerapian, termasuk sealant dan pembersihan area kerja.</p>
+        <div class="tarif">10% dari subtotal produk<small>Minimum Rp150.000 per pesanan.</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALERI ================= -->
+<section id="galeri">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Galeri Proyek</div>
+      <h2>Beberapa pekerjaan yang sudah kami selesaikan</h2>
+      <p>Contoh pekerjaan aluminium untuk rumah tinggal, ruko, kantor, dan tempat usaha di Malang.</p>
+    </div>
+    <div class="gallery-carousel reveal">
+      <div class="gallery-track">
+        <div class="photo-frame gallery-item"><img src="foto-galeri-1.png" alt="Kusen pintu rumah tinggal" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Kusen pintu — rumah tinggal</div></div>
+        <div class="photo-frame gallery-item"><img src="foto-galeri-2.png" alt="Jendela sliding ruko" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Jendela sliding — ruko</div></div>
+        <div class="photo-frame gallery-item"><img src="foto-galeri-3.png" alt="Partisi ruangan kantor" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Partisi ruangan — kantor</div></div>
+        <div class="photo-frame gallery-item"><img src="foto-galeri-4.png" alt="Etalase toko" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Etalase toko</div></div>
+        <div class="photo-frame gallery-item"><img src="foto-galeri-5.png" alt="Pintu swing akses usaha" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pintu swing — akses usaha</div></div>
+        <div class="photo-frame gallery-item"><img src="foto-galeri-6.png" alt="Pekerjaan custom aluminium" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pekerjaan custom</div></div>
+        <!-- set duplikat agar marquee menyambung tanpa jeda -->
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-1.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Kusen pintu — rumah tinggal</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-2.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Jendela sliding — ruko</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-3.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Partisi ruangan — kantor</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-4.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Etalase toko</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-5.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pintu swing — akses usaha</div></div>
+        <div class="photo-frame gallery-item" aria-hidden="true"><img src="foto-galeri-6.png" alt="" loading="lazy" onerror="this.style.display='none'"><div class="photo-caption">Pekerjaan custom</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CARA PESAN (gabungan Proses + Cara Pemesanan) ================= -->
+<section class="band-raised" id="cara-pesan">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Proses &amp; Cara Pesan</div>
+      <h2>Lima langkah dari keranjang sampai terpasang</h2>
+      <p>Setiap proyek melalui urutan yang sama, supaya Anda tahu apa yang sedang terjadi di setiap tahap.</p>
+    </div>
+    <div class="steps reveal-stagger">
+      <div class="step"><div class="tag">01</div><h3>Pilih &amp; hitung</h3><p>Pilih produk, model, finishing, dan masukkan ukuran. Estimasi harga langsung muncul.</p></div>
+      <div class="step"><div class="tag">02</div><h3>Checkout</h3><p>Isi data dan alamat lokasi. Pesanan tercatat dan Anda mendapat nomor pesanan.</p></div>
+      <div class="step"><div class="tag">03</div><h3>Survei ukur</h3><p>Tim datang sesuai jadwal, mengukur ulang, lalu mengirim invoice harga final.</p></div>
+      <div class="step"><div class="tag">04</div><h3>DP &amp; produksi</h3><p>Bayar DP 50%. Material dipotong dan dirakit dalam 7–14 hari kerja.</p></div>
+      <div class="step"><div class="tag">05</div><h3>Pasang &amp; lunasi</h3><p>Produk dipasang dan dicek bersama. Sisa 50% dibayar setelah pekerjaan selesai.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PEMBAYARAN & KETENTUAN ================= -->
+<section id="pembayaran">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Pembayaran &amp; Ketentuan</div>
+      <h2>Yang perlu diketahui sebelum memesan</h2>
+    </div>
+    <div class="terms reveal-stagger">
+      <div class="term">
+        <h3>Metode pembayaran</h3>
+        <ul>
+          <li><b>Transfer bank</b> ke rekening resmi atas nama Alumma.</li>
+          <li><b>QRIS</b> — bisa dibayar dari m-banking atau e-wallet.</li>
+          <li><b>Tunai</b> saat survei ukur atau saat pemasangan.</li>
+          <li>Nomor rekening dan QRIS dikirim admin lewat WhatsApp bersama invoice.</li>
+        </ul>
+      </div>
+      <div class="term">
+        <h3>Garansi &amp; pembatalan</h3>
+        <ul>
+          <li><b>Garansi pemasangan 1 tahun</b> untuk rel macet, engsel, dan kebocoran sambungan.</li>
+          <li>Pembatalan sebelum produksi dimulai: DP dikembalikan penuh.</li>
+          <li>Pembatalan setelah material dipotong: DP tidak dapat dikembalikan.</li>
+          <li>Perubahan ukuran setelah produksi dikenakan biaya pekerjaan ulang.</li>
+        </ul>
+      </div>
+      <div class="term">
+        <h3>Promo &amp; pengiriman</h3>
+        <ul>
+          <li>Kode <span class="promo-code">ALUMMABARU</span> — diskon 5% pelanggan baru (maks. Rp500.000).</li>
+          <li>Kota Malang: survei dan pengiriman <b>gratis</b>.</li>
+          <li>Kab. Malang &amp; Kota Batu: transport Rp100.000 per pesanan.</li>
+          <li>Luar Malang Raya: biaya dihitung admin sesuai jarak.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KONTAK ================= -->
+<section class="band-raised" id="kontak">
+  <div class="container contact-grid reveal">
+    <div class="contact-info">
+      <div class="kicker">Kontak</div>
+      <h2>Ceritakan kebutuhan proyek Anda</h2>
+      <p>Punya kebutuhan di luar katalog atau ingin diskusi dulu? Kirim detail singkat lewat form,
+        atau hubungi kami langsung. Kami akan merespons untuk menjadwalkan pengukuran.</p>
+
+      <div class="contact-item">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 18s6-5.2 6-9.8A6 6 0 004 8.2C4 12.8 10 18 10 18z" stroke="currentColor" stroke-width="1.4"/><circle cx="10" cy="8" r="2.2" stroke="currentColor" stroke-width="1.4"/></svg>
+        <div><strong>Alamat</strong><span>Malang, Jawa Timur</span></div>
+      </div>
+      <a class="contact-item" href="mailto:info@alummalang.id">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="2.5" y="4" width="15" height="12" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M3 5.5L10 11l7-5.5" stroke="currentColor" stroke-width="1.4"/></svg>
+        <div><strong>Email</strong><span>info@alummalang.id</span></div>
+      </a>
+      <a class="contact-item" id="contact-wa" href="https://wa.me/6288980742132" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 3h3l1.6 4-2 1.3a11 11 0 005.1 5.1l1.3-2 4 1.6v3a1 1 0 01-1.1 1C9.6 16.6 3.4 10.4 3 4.1A1 1 0 014 3z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+        <div><strong>Telepon / WhatsApp</strong><span>+62 889-8074-2132</span></div>
+      </a>
+    </div>
+
+    <div class="form-card">
+      <h3>Form konsultasi</h3>
+      <p>Gratis dan tanpa kewajiban membeli.</p>
+      <form id="contact-form">
+        <div class="field-grid two">
+          <div class="form-row">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama Anda" required autocomplete="name" />
+          </div>
+          <div class="form-row">
+            <label for="nohp">Nomor Telepon</label>
+            <input type="tel" id="nohp" name="nohp" placeholder="08xxxxxxxxxx" required autocomplete="tel" />
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email Anda" required autocomplete="email" />
+        </div>
+        <div class="form-row">
+          <label for="pesan">Kebutuhan Proyek</label>
+          <textarea id="pesan" name="pesan" placeholder="Ceritakan kebutuhan aluminium Anda" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Kirim pesan</button>
+        <p id="contact-msg" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo">Alu<em>mma</em></a>
+        <p>Solusi aluminium berkualitas untuk hunian dan bangunan modern. Kusen, pintu, jendela, partisi, kanopi, dan etalase — dibuat sesuai ukuran di Malang.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Belanja</h4>
+        <ul>
+          <li><a href="#produk">Katalog produk</a></li>
+          <li><a href="#harga">Daftar harga</a></li>
+          <li><a href="#cara-pesan">Cara pesan</a></li>
+          <li><a href="#pembayaran">Pembayaran &amp; garansi</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Hubungi</h4>
+        <ul>
+          <li><span>Malang, Jawa Timur</span></li>
+          <li><a href="mailto:info@alummalang.id">info@alummalang.id</a></li>
+          <li><a href="https://wa.me/6288980742132" target="_blank" rel="noopener">+62 889-8074-2132</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Alumma (Aluminium Malang). Kusen, pintu &amp; jendela aluminium — Malang.</div>
+  </div>
+</footer>
+
+<a class="wa-float" id="wa-float" href="https://wa.me/6288980742132" target="_blank" rel="noopener" aria-label="Chat WhatsApp Alumma">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.2-.4.3-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 001.7-1.2 2.2 2.2 0 00.2-1.2c-.1-.1-.3-.2-.5-.3z"/></svg>
+</a>
+
+<!-- ================= KERANJANG ================= -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Keranjang belanja" aria-hidden="true">
+  <div class="drawer-head">
+    <h2>Keranjang</h2>
+    <button class="icon-btn" id="cart-close" aria-label="Tutup keranjang">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body">
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-summary" id="cart-summary">
+      <div class="cart-opts">
+        <label class="check-row">
+          <input type="checkbox" id="opt-pasang" checked>
+          <span>Pasang oleh tim Alumma<small>10% dari subtotal produk, minimum Rp150.000</small></span>
+        </label>
+        <div class="form-row">
+          <label for="opt-area">Lokasi pemasangan / pengiriman</label>
+          <select id="opt-area"></select>
+        </div>
+        <div class="form-row">
+          <label for="promo-input">Kode promo <span class="optional">(opsional)</span></label>
+          <div class="promo">
+            <input type="text" id="promo-input" placeholder="Contoh: ALUMMABARU" autocomplete="off">
+            <button class="btn btn-ghost" id="promo-apply" type="button">Pakai</button>
+          </div>
+          <div class="promo-msg" id="promo-msg"></div>
+        </div>
+      </div>
+      <div class="sum-block" id="cart-totals"></div>
+    </div>
+  </div>
+  <div class="drawer-foot" id="cart-foot">
+    <button class="btn btn-primary btn-block" id="go-checkout">Lanjut ke checkout</button>
+  </div>
+</aside>
+
+<!-- ================= DIALOG: PILIH & HITUNG ================= -->
+<dialog class="sheet" id="config-dialog" aria-labelledby="cfg-title">
+  <form id="config-form" style="display:contents;">
+    <div class="sheet-head">
+      <div>
+        <h2 id="cfg-title">Produk</h2>
+        <p id="cfg-desc"></p>
+      </div>
+      <button type="button" class="icon-btn" data-close aria-label="Tutup">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="sheet-body">
+      <div class="section-label">1. Pilih model</div>
+      <div class="opt-list" id="cfg-variants"></div>
+      <div id="cfg-finishing-wrap">
+        <div class="section-label">2. Finishing</div>
+        <div class="opt-inline" id="cfg-finishing" style="margin-bottom:18px;"></div>
+      </div>
+      <div class="section-label" id="cfg-size-label">3. Ukuran &amp; jumlah</div>
+      <div id="cfg-size"></div>
+      <div class="form-row" style="margin-top:4px;">
+        <label for="cfg-note">Catatan <span class="optional">(opsional)</span></label>
+        <input type="text" id="cfg-note" maxlength="120" placeholder="Misal: kaca riben, untuk kamar depan, kunci tambahan">
+      </div>
+    </div>
+    <div class="sheet-foot">
+      <div class="estimate">
+        <small>Estimasi harga</small>
+        <b id="cfg-total">Rp0</b>
+        <span class="calc" id="cfg-calc"></span>
+      </div>
+      <button type="submit" class="btn btn-primary" id="cfg-add">Tambah ke keranjang</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- ================= DIALOG: CHECKOUT ================= -->
+<dialog class="sheet wide" id="checkout-dialog" aria-labelledby="co-title">
+  <div class="sheet-head">
+    <div>
+      <h2 id="co-title">Checkout</h2>
+      <p id="co-sub">Isi data pemesan. Admin akan menghubungi lewat WhatsApp untuk menjadwalkan survei.</p>
+    </div>
+    <button type="button" class="icon-btn" data-close aria-label="Tutup">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
+  <div class="sheet-body" id="checkout-view">
+    <form id="checkout-form" novalidate>
+      <div class="checkout-grid">
+        <div>
+          <div class="field-grid two">
+            <div class="form-row">
+              <label for="co-nama">Nama lengkap</label>
+              <input type="text" id="co-nama" required placeholder="Nama pemesan" autocomplete="name">
+            </div>
+            <div class="form-row">
+              <label for="co-hp">No. WhatsApp</label>
+              <input type="tel" id="co-hp" required placeholder="08xxxxxxxxxx" pattern="^(\+?62|0)8[0-9]{7,12}$" autocomplete="tel">
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="co-email">Email</label>
+            <input type="email" id="co-email" required placeholder="nama@email.com" autocomplete="email">
+          </div>
+          <div class="form-row">
+            <label for="co-alamat">Alamat lokasi pemasangan</label>
+            <textarea id="co-alamat" required placeholder="Jalan, nomor rumah, kelurahan, kecamatan"></textarea>
+          </div>
+          <div class="field-grid two">
+            <div class="form-row">
+              <label for="co-area">Wilayah</label>
+              <select id="co-area"></select>
+            </div>
+            <div class="form-row">
+              <label for="co-tgl">Jadwal survei yang diinginkan</label>
+              <input type="date" id="co-tgl" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <span class="form-label">Metode pembayaran</span>
+            <div class="opt-inline" id="co-bayar"></div>
+          </div>
+          <div class="form-row">
+            <label for="co-catatan">Catatan untuk tim <span class="optional">(opsional)</span></label>
+            <input type="text" id="co-catatan" maxlength="200" placeholder="Misal: survei setelah jam 4 sore">
+          </div>
+        </div>
+        <div class="order-box">
+          <h3>Ringkasan pesanan</h3>
+          <div id="co-summary"></div>
+          <label class="check-row agree">
+            <input type="checkbox" id="co-agree" required>
+            <span>Saya paham harga di atas adalah estimasi, dan harga final ditetapkan setelah survei ukur.</span>
+          </label>
+          <button type="submit" class="btn btn-primary btn-block" id="co-submit">Kirim pesanan</button>
+          <p id="checkout-msg" role="alert"></p>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="sheet-body" id="confirm-view" hidden></div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite">
+  <span id="toast-text">Ditambahkan ke keranjang</span>
+  <button type="button" id="toast-action">Lihat keranjang</button>
+</div>
+
+<script>
+/* =========================================================
+   KONFIGURASI — ubah harga & data produk di sini
+   ========================================================= */
+const WA_NUMBER  = "6288980742132";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyKhxmoclFHrvt75YX2l5d5wX24MNZtnIETXeCkNSz69UmOmzMDStLJsvx-VM4bmPOz/exec";
+
+const UNITS = {
+  m2:   { long: "per m²" },
+  m:    { long: "per meter lari" },
+  unit: { long: "per unit" },
+  sesi: { long: "per kunjungan" }
+};
+
+const FINISHING = [
+  { id: "natural",  nama: "Natural silver", ket: "Standar", faktor: 1.00 },
+  { id: "powder",   nama: "Powder coating", ket: "Putih / hitam, +10%", faktor: 1.10 },
+  { id: "anodized", nama: "Anodized",       ket: "Coklat / champagne, +15%", faktor: 1.15 }
+];
+
+const PRODUCTS = [
+  {
+    id: "kusen", nama: "Kusen Aluminium", grup: "pintu-jendela", jenis: "Produk",
+    img: "foto-produk-kusen.png",
+    desc: "Rangka pintu dan jendela minimalis yang dipasang mengikuti ukuran bukaan tembok.",
+    unit: "m", finishing: true,
+    variants: [
+      { id: "k3", nama: "Kusen 3 inci", ket: "Jendela, bovenlicht, bukaan kecil", harga: 215000 },
+      { id: "k4", nama: "Kusen 4 inci", ket: "Pintu utama & jendela besar", harga: 265000 }
+    ]
+  },
+  {
+    id: "pintu", nama: "Pintu Aluminium", grup: "pintu-jendela", jenis: "Produk",
+    img: "foto-produk-pintu.png",
+    desc: "Satu set lengkap untuk pintu utama, samping, atau akses usaha: kusen, daun pintu, kaca 5 mm, engsel/rel, dan kunci.",
+    unit: "unit", finishing: true,
+    variants: [
+      { id: "p-km",  nama: "Pintu kamar mandi panel ACP", ket: "70 × 200 cm", harga: 1950000 },
+      { id: "p-sw1", nama: "Pintu swing 1 daun", ket: "80 × 210 cm, kaca 5 mm", harga: 2950000 },
+      { id: "p-sw2", nama: "Pintu swing 2 daun", ket: "140 × 210 cm, kaca 5 mm", harga: 4750000 },
+      { id: "p-sl2", nama: "Pintu sliding 2 daun", ket: "160 × 210 cm, rel atas-bawah", harga: 5450000 }
+    ]
+  },
+  {
+    id: "jendela", nama: "Jendela Aluminium", grup: "pintu-jendela", jenis: "Produk",
+    img: "foto-produk-jendela.png",
+    desc: "Jendela modern untuk sirkulasi udara dan cahaya alami, termasuk kaca 5 mm.",
+    unit: "m2", finishing: true, defaultSize: [120, 100],
+    variants: [
+      { id: "j-nako", nama: "Jendela nako", ket: "Bilah kaca buka-tutup", harga: 950000 },
+      { id: "j-sl",   nama: "Jendela sliding", ket: "Geser, hemat ruang", harga: 1150000 },
+      { id: "j-cs",   nama: "Jendela casement", ket: "Buka keluar, rapat", harga: 1350000 }
+    ]
+  },
+  {
+    id: "partisi", nama: "Partisi Aluminium", grup: "interior", jenis: "Produk",
+    img: "foto-produk-partisi.png",
+    desc: "Membagi ruangan rumah, kantor, atau tempat usaha tanpa membangun dinding permanen.",
+    unit: "m2", finishing: true, defaultSize: [300, 250],
+    variants: [
+      { id: "pt-kaca", nama: "Partisi kaca bening 5 mm", ket: "Terang, kesan luas", harga: 650000 },
+      { id: "pt-sb",   nama: "Partisi kaca sandblast", ket: "Privasi tetap terang", harga: 750000 },
+      { id: "pt-acp",  nama: "Partisi kombinasi ACP + kaca", ket: "Bawah panel, atas kaca", harga: 780000 }
+    ]
+  },
+  {
+    id: "kanopi", nama: "Kanopi Aluminium", grup: "eksterior", jenis: "Produk",
+    img: "foto-produk-kanopi.png",
+    desc: "Melindungi teras, carport, atau area usaha dari panas dan hujan, sekaligus menambah tampilan bangunan.",
+    unit: "m2", finishing: true, defaultSize: [400, 300],
+    variants: [
+      { id: "kn-pc",   nama: "Atap polycarbonate", ket: "Tembus cahaya, ekonomis", harga: 650000 },
+      { id: "kn-ald",  nama: "Atap alderon twinwall", ket: "Redam panas & suara hujan", harga: 750000 },
+      { id: "kn-kaca", nama: "Atap kaca tempered 8 mm", ket: "Tampilan premium", harga: 1450000 }
+    ]
+  },
+  {
+    id: "etalase", nama: "Etalase Aluminium", grup: "interior", jenis: "Produk",
+    img: "foto-produk-etalase.png",
+    desc: "Etalase rangka aluminium dan kaca untuk toko, apotek, konter, atau kantin.",
+    unit: "unit", finishing: true,
+    variants: [
+      { id: "e-100", nama: "Etalase meja 100 cm", ket: "100 × 45 × 100 cm", harga: 2250000 },
+      { id: "e-150", nama: "Etalase meja 150 cm", ket: "150 × 45 × 100 cm", harga: 2950000 },
+      { id: "e-dd",  nama: "Etalase dinding", ket: "120 × 35 × 180 cm, 4 ambalan", harga: 3450000 }
+    ]
+  },
+  {
+    id: "custom", nama: "Pembuatan Custom", grup: "jasa", jenis: "Jasa",
+    img: "foto-produk-custom.png",
+    desc: "Fabrikasi aluminium di luar katalog: rak, railing, pintu lipat, cover, dan lainnya.",
+    unit: "m2", finishing: true, defaultSize: [100, 100],
+    variants: [
+      { id: "c-std", nama: "Custom standar", ket: "Rangka + panel/kaca biasa", harga: 750000 },
+      { id: "c-kom", nama: "Custom kompleks", ket: "Lipat, lengkung, atau banyak sambungan", harga: 1100000 }
+    ]
+  },
+  {
+    id: "survei", nama: "Konsultasi & Survei Ukur", grup: "jasa", jenis: "Jasa",
+    img: "foto-produk-survei.png",
+    desc: "Tim datang ke lokasi untuk mengukur dan membantu memilih model sebelum Anda memutuskan.",
+    unit: "sesi", finishing: false, direct: true,
+    variants: [ { id: "s-1", nama: "Survei ukur & konsultasi", ket: "Gratis untuk Kota Malang", harga: 0 } ]
+  }
+];
+
+const AREAS = [
+  { id: "kota", nama: "Kota Malang", biaya: 0 },
+  { id: "kab",  nama: "Kab. Malang / Kota Batu", biaya: 100000 },
+  { id: "luar", nama: "Luar Malang Raya", biaya: null }
+];
+const PAYMENTS = ["Transfer bank", "QRIS", "Tunai"];
+const PROMOS = { ALUMMABARU: { persen: 5, maks: 500000, ket: "Diskon 5% pelanggan baru" } };
+const INSTALL = { persen: 10, min: 150000 };
+
+/* =========================================================
+   UTIL & STATE
+   ========================================================= */
+const $ = function (s, el) { return (el || document).querySelector(s); };
+const rp = function (n) { return "Rp" + Math.round(n).toLocaleString("id-ID"); };
+const round1000 = function (n) { return Math.round(n / 1000) * 1000; };
+const dec = function (n) { return n.toFixed(2).replace(".", ","); };
+const esc = function (s) {
+  return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; });
+};
+const store = {
+  get: function (k, fb) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } },
+  set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage tidak tersedia */ } }
+};
+const findProduct = function (id) { return PRODUCTS.find(function (p) { return p.id === id; }); };
+const minPrice = function (p) { return Math.min.apply(null, p.variants.map(function (v) { return v.harga; })); };
+
+let cart = store.get("alumma-cart", []);
+let opts = Object.assign({ pasang: true, area: "kota", promo: "" }, store.get("alumma-cart-opts", {}));
+function saveCart() { store.set("alumma-cart", cart); store.set("alumma-cart-opts", opts); }
+
+/* =========================================================
+   KATALOG
+   ========================================================= */
+function renderCatalog(filter) {
+  const list = PRODUCTS.filter(function (p) { return filter === "semua" || p.grup === filter; });
+  $("#catalog").innerHTML = list.map(function (p) {
+    const min = minPrice(p);
+    const price = min === 0 ? '<b class="free">Gratis</b>Kota Malang' : "Mulai<b>" + rp(min) + "</b>" + UNITS[p.unit].long;
+    const btn = p.direct
+      ? '<button class="btn btn-ghost btn-sm" data-direct="' + p.id + '">Jadwalkan survei</button>'
+      : '<button class="btn btn-primary btn-sm" data-config="' + p.id + '">Pilih &amp; hitung</button>';
+    return '<article class="card" id="p-' + p.id + '">' +
+      '<div class="photo-frame"><span class="frame-label">' + esc(p.nama) + '</span>' +
+        '<img src="' + p.img + '" alt="' + esc(p.nama) + '" loading="lazy" onerror="this.style.display=\'none\'">' +
+        '<span class="card-badge' + (p.jenis === "Jasa" ? " jasa" : "") + '">' + p.jenis + "</span></div>" +
+      '<div class="card-body"><h3>' + esc(p.nama) + "</h3><p>" + esc(p.desc) + "</p>" +
+        '<div class="card-foot"><div class="price-from">' + price + "</div>" + btn + "</div></div>" +
+    "</article>";
+  }).join("");
+}
+
+document.querySelectorAll(".chip").forEach(function (chip) {
+  chip.addEventListener("click", function () {
+    document.querySelectorAll(".chip").forEach(function (c) { c.setAttribute("aria-pressed", "false"); });
+    chip.setAttribute("aria-pressed", "true");
+    renderCatalog(chip.dataset.filter);
+  });
+});
+$("#catalog").addEventListener("click", function (e) {
+  const c = e.target.closest("[data-config]"), d = e.target.closest("[data-direct]");
+  if (c) openConfig(c.dataset.config);
+  if (d) addDirect(d.dataset.direct);
+});
+$("#note-survei").addEventListener("click", function (e) { e.preventDefault(); addDirect("survei"); });
+
+/* =========================================================
+   DAFTAR HARGA (otomatis dari data produk)
+   ========================================================= */
+function renderPriceTable() {
+  let h = "";
+  PRODUCTS.forEach(function (p) {
+    h += '<tr class="group"><td colspan="4">' + esc(p.nama) + (p.jenis === "Jasa" ? " (jasa)" : "") + "</td></tr>";
+    p.variants.forEach(function (v) {
+      h += "<tr><td>" + esc(v.nama) + '</td><td class="ket">' + esc(v.ket) + '</td><td class="harga">' +
+        (v.harga === 0 ? "Gratis" : rp(v.harga)) + '</td><td class="satuan">' + UNITS[p.unit].long + "</td></tr>";
+    });
+  });
+  h += '<tr class="group"><td colspan="4">Pemasangan &amp; transport</td></tr>';
+  h += '<tr><td>Jasa pemasangan</td><td class="ket">Termasuk penyesuaian &amp; sealant</td><td class="harga">10%</td><td class="satuan">dari subtotal, min. Rp150.000</td></tr>';
+  h += '<tr><td>Transport Kab. Malang / Kota Batu</td><td class="ket">Survei + pengiriman</td><td class="harga">' + rp(100000) + '</td><td class="satuan">per pesanan</td></tr>';
+  h += '<tr><td>Transport luar Malang Raya</td><td class="ket">Sesuai jarak</td><td class="harga">Dihitung admin</td><td class="satuan">per pesanan</td></tr>';
+  $("#price-body").innerHTML = h;
+}
+
+/* =========================================================
+   KONFIGURATOR (Pilih & hitung)
+   ========================================================= */
+const cfgDialog = $("#config-dialog");
+let cfgProduct = null;
+
+function openConfig(id) {
+  const p = findProduct(id);
+  if (!p) return;
+  cfgProduct = p;
+  $("#cfg-title").textContent = p.nama;
+  $("#cfg-desc").textContent = p.desc;
+  $("#cfg-variants").innerHTML = p.variants.map(function (v, i) {
+    return '<label class="opt"><input type="radio" name="cfg-variant" value="' + v.id + '"' + (i === 0 ? " checked" : "") + ">" +
+      '<span class="opt-name">' + esc(v.nama) + "<small>" + esc(v.ket) + "</small></span>" +
+      '<span class="opt-price">' + rp(v.harga) + "<small>" + UNITS[p.unit].long + "</small></span></label>";
+  }).join("");
+  $("#cfg-finishing-wrap").hidden = !p.finishing;
+  $("#cfg-finishing").innerHTML = FINISHING.map(function (f, i) {
+    return '<label class="opt"><input type="radio" name="cfg-finish" value="' + f.id + '"' + (i === 0 ? " checked" : "") + ">" +
+      '<span class="opt-name">' + f.nama + "<small>" + f.ket + "</small></span></label>";
+  }).join("");
+  $("#cfg-size-label").textContent = (p.finishing ? "3" : "2") + ". Ukuran & jumlah";
+
+  let s = "";
+  if (p.unit === "m2") {
+    const d = p.defaultSize || [100, 100];
+    s = '<div class="field-grid">' +
+      '<div class="form-row"><label for="cfg-w">Lebar (cm)</label><input type="number" inputmode="numeric" id="cfg-w" min="20" max="1000" value="' + d[0] + '"></div>' +
+      '<div class="form-row"><label for="cfg-h">Tinggi / panjang (cm)</label><input type="number" inputmode="numeric" id="cfg-h" min="20" max="1000" value="' + d[1] + '"></div>' +
+      '<div class="form-row"><label for="cfg-qty">Jumlah unit</label><input type="number" inputmode="numeric" id="cfg-qty" min="1" max="50" value="1"></div>' +
+      '</div><p class="form-hint" style="margin:-6px 0 14px;">Ukur bukaan tembok. Ukuran akan dicek ulang saat survei.</p>';
+  } else if (p.unit === "m") {
+    s = '<div class="field-grid two">' +
+      '<div class="form-row"><label for="cfg-len">Total panjang kusen (meter)</label><input type="number" inputmode="decimal" id="cfg-len" min="1" max="300" step="0.5" value="10"></div>' +
+      '<div class="form-row"><label for="cfg-qty">Jumlah set</label><input type="number" inputmode="numeric" id="cfg-qty" min="1" max="50" value="1"></div>' +
+      '</div><p class="form-hint" style="margin:-6px 0 14px;">Contoh: kusen pintu 90 × 210 cm ≈ 5,1 m (2 sisi tinggi + 1 sisi atas).</p>';
+  } else {
+    s = '<div class="field-grid two"><div class="form-row"><label for="cfg-qty">Jumlah unit</label><input type="number" inputmode="numeric" id="cfg-qty" min="1" max="50" value="1"></div></div>';
+  }
+  $("#cfg-size").innerHTML = s;
+  $("#cfg-note").value = "";
+  updateEstimate();
+  cfgDialog.showModal();
+  cfgDialog.querySelector(".sheet-body").scrollTop = 0;
+}
+
+function readConfig() {
+  const p = cfgProduct;
+  const vId = (cfgDialog.querySelector('input[name="cfg-variant"]:checked') || {}).value;
+  const v = p.variants.find(function (x) { return x.id === vId; }) || p.variants[0];
+  const fId = p.finishing ? (cfgDialog.querySelector('input[name="cfg-finish"]:checked') || {}).value : "natural";
+  const f = FINISHING.find(function (x) { return x.id === fId; }) || FINISHING[0];
+  const qty = Math.max(1, Math.min(50, parseInt(($("#cfg-qty") || {}).value, 10) || 1));
+  let perUnit = v.harga * f.faktor, spec = "", valid = true;
+  let calc = rp(v.harga) + (f.faktor !== 1 ? " × " + dec(f.faktor) : "");
+
+  if (p.unit === "m2") {
+    const w = parseFloat($("#cfg-w").value), h = parseFloat($("#cfg-h").value);
+    valid = w >= 20 && h >= 20 && w <= 1000 && h <= 1000;
+    const luas = valid ? (w * h) / 10000 : 0, tagih = Math.max(1, luas);
+    perUnit *= tagih;
+    spec = w + " × " + h + " cm (" + dec(luas) + " m²" + (luas < 1 ? ", dihitung 1 m²" : "") + ")";
+    calc += " × " + dec(tagih) + " m²";
+  } else if (p.unit === "m") {
+    const len = parseFloat($("#cfg-len").value);
+    valid = len >= 1 && len <= 300;
+    perUnit *= valid ? len : 0;
+    spec = "Panjang " + String(len).replace(".", ",") + " m";
+    calc += " × " + String(len).replace(".", ",") + " m";
+  }
+  perUnit = round1000(perUnit);
+  if (qty > 1) calc += " × " + qty;
+  return { p: p, v: v, f: f, qty: qty, perUnit: perUnit, total: perUnit * qty, spec: spec, calc: calc, valid: valid };
+}
+function updateEstimate() {
+  const c = readConfig();
+  $("#cfg-total").textContent = c.valid ? rp(c.total) : "—";
+  $("#cfg-calc").textContent = c.valid ? c.calc : "Periksa ukuran (min. 20 cm)";
+  $("#cfg-add").disabled = !c.valid;
+}
+cfgDialog.addEventListener("input", updateEstimate);
+cfgDialog.addEventListener("change", updateEstimate);
+
+$("#config-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const c = readConfig();
+  if (!c.valid) return;
+  cart.push({
+    key: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+    pid: c.p.id, nama: c.p.nama, varian: c.v.nama,
+    finishing: c.p.finishing ? c.f.nama : "", spec: c.spec,
+    catatan: $("#cfg-note").value.trim(), qty: c.qty, harga: c.perUnit
+  });
+  saveCart(); renderCart(); cfgDialog.close();
+  showToast(c.p.nama + " ditambahkan");
+});
+
+function addDirect(id) {
+  const p = findProduct(id);
+  const exists = cart.some(function (i) { return i.pid === id; });
+  if (!exists) {
+    cart.push({ key: "s" + Date.now().toString(36), pid: p.id, nama: p.nama, varian: p.variants[0].nama, finishing: "", spec: "", catatan: "", qty: 1, harga: 0 });
+    saveCart(); renderCart();
+  }
+  showToast(exists ? "Survei sudah ada di keranjang" : "Survei ukur ditambahkan");
+}
+
+/* =========================================================
+   KERANJANG
+   ========================================================= */
+function totals() {
+  const subtotal = cart.reduce(function (s, i) { return s + i.harga * i.qty; }, 0);
+  const pasang = opts.pasang && subtotal > 0 ? Math.max(round1000(subtotal * INSTALL.persen / 100), INSTALL.min) : 0;
+  const area = AREAS.find(function (a) { return a.id === opts.area; }) || AREAS[0];
+  const transport = area.biaya || 0;
+  const promo = PROMOS[opts.promo];
+  const diskon = promo && subtotal > 0 ? Math.min(round1000(subtotal * promo.persen / 100), promo.maks) : 0;
+  const total = subtotal + pasang + transport - diskon;
+  return { subtotal: subtotal, pasang: pasang, area: area, transport: transport, diskon: diskon, promo: promo ? opts.promo : "", total: total, dp: round1000(total / 2) };
+}
+function transportLabel(t) { return t.area.biaya === null ? "Dihitung admin" : (t.transport ? rp(t.transport) : "Gratis"); }
+function totalsHtml(t, pasang) {
+  let h = '<div class="sum-row"><span>Subtotal produk &amp; jasa</span><span>' + rp(t.subtotal) + "</span></div>";
+  h += '<div class="sum-row"><span>Pemasangan</span><span>' + (pasang ? rp(t.pasang) : "Tidak dipasang") + "</span></div>";
+  h += '<div class="sum-row"><span>Transport (' + esc(t.area.nama) + ")</span><span>" + transportLabel(t) + "</span></div>";
+  if (t.diskon) h += '<div class="sum-row disc"><span>Promo ' + esc(t.promo) + "</span><span>−" + rp(t.diskon) + "</span></div>";
+  h += '<div class="sum-row total"><span>Total estimasi</span><span>' + rp(t.total) + "</span></div>";
+  h += '<div class="sum-row dp"><span>DP 50% setelah survei</span><span>' + rp(t.dp) + "</span></div>";
+  return h;
+}
+
+function renderCart() {
+  const count = cart.reduce(function (s, i) { return s + i.qty; }, 0);
+  const badge = $("#cart-count");
+  if (badge.textContent !== String(count)) {
+    badge.textContent = count;
+    badge.classList.remove("bump"); void badge.offsetWidth; badge.classList.add("bump");
+  }
+  if (!cart.length) {
+    $("#cart-items").innerHTML = '<div class="cart-empty">' +
+      '<svg width="44" height="44" viewBox="0 0 20 20" fill="none"><path d="M2 3h2.2l1.9 9.2a1.5 1.5 0 001.5 1.2h6.9a1.5 1.5 0 001.4-1.1L17.5 6H5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="17" r="1" fill="currentColor"/><circle cx="14.5" cy="17" r="1" fill="currentColor"/></svg>' +
+      '<p>Keranjang masih kosong.</p><a href="#produk" class="btn btn-ghost btn-sm" id="empty-shop">Lihat katalog</a></div>';
+    $("#cart-summary").hidden = true;
+    $("#cart-foot").hidden = true;
+    return;
+  }
+  $("#cart-summary").hidden = false;
+  $("#cart-foot").hidden = false;
+  $("#cart-items").innerHTML = cart.map(function (i) {
+    const meta = [i.varian, i.finishing, i.spec].filter(Boolean).map(esc).join(" · ");
+    return '<div class="cart-item" data-key="' + i.key + '">' +
+      '<div class="cart-item-top"><h4>' + esc(i.nama) + '</h4><span class="line-total">' + (i.harga ? rp(i.harga * i.qty) : "Gratis") + "</span></div>" +
+      '<div class="meta">' + meta + (i.catatan ? "<br>Catatan: " + esc(i.catatan) : "") + "</div>" +
+      '<div class="cart-item-bottom">' +
+        (i.harga ? '<div class="qty"><button type="button" data-act="dec" aria-label="Kurangi">−</button><span>' + i.qty + '</span><button type="button" data-act="inc" aria-label="Tambah">+</button></div>' : '<span class="meta">1 kunjungan</span>') +
+        '<span class="meta">' + (i.harga ? rp(i.harga) + " / unit" : "") + "</span>" +
+        '<button type="button" class="link-btn" data-act="del">Hapus</button>' +
+      "</div></div>";
+  }).join("");
+  $("#opt-pasang").checked = opts.pasang;
+  $("#opt-area").value = opts.area;
+  const t = totals();
+  $("#cart-totals").innerHTML = totalsHtml(t, opts.pasang);
+  $("#go-checkout").textContent = "Lanjut ke checkout · " + rp(t.total);
+}
+
+$("#cart-items").addEventListener("click", function (e) {
+  if (e.target.closest("#empty-shop")) { closeCart(); return; }
+  const btn = e.target.closest("[data-act]");
+  if (!btn) return;
+  const key = btn.closest(".cart-item").dataset.key;
+  const item = cart.find(function (i) { return i.key === key; });
+  if (!item) return;
+  if (btn.dataset.act === "inc") item.qty = Math.min(50, item.qty + 1);
+  if (btn.dataset.act === "dec") item.qty = Math.max(1, item.qty - 1);
+  if (btn.dataset.act === "del") cart = cart.filter(function (i) { return i.key !== key; });
+  saveCart(); renderCart();
+});
+
+$("#opt-area").innerHTML = AREAS.map(function (a) {
+  return '<option value="' + a.id + '">' + a.nama + " — " + (a.biaya === null ? "dihitung admin" : (a.biaya ? rp(a.biaya) : "gratis")) + "</option>";
+}).join("");
+$("#opt-pasang").addEventListener("change", function (e) { opts.pasang = e.target.checked; saveCart(); renderCart(); });
+$("#opt-area").addEventListener("change", function (e) { opts.area = e.target.value; saveCart(); renderCart(); });
+
+function applyPromo() {
+  const code = $("#promo-input").value.trim().toUpperCase(), msg = $("#promo-msg");
+  if (!code) { opts.promo = ""; msg.textContent = ""; msg.className = "promo-msg"; }
+  else if (PROMOS[code]) { opts.promo = code; msg.textContent = PROMOS[code].ket + " (maks. " + rp(PROMOS[code].maks) + ") dipakai."; msg.className = "promo-msg ok"; }
+  else { opts.promo = ""; msg.textContent = "Kode promo tidak ditemukan."; msg.className = "promo-msg err"; }
+  saveCart(); renderCart();
+}
+$("#promo-apply").addEventListener("click", applyPromo);
+$("#promo-input").addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); applyPromo(); } });
+
+const drawer = $("#drawer"), overlay = $("#overlay");
+function openCart() {
+  $("#toast").classList.remove("show");
+  renderCart();
+  drawer.classList.add("is-open"); overlay.classList.add("is-open");
+  drawer.setAttribute("aria-hidden", "false");
+  document.body.classList.add("no-scroll");
+  $("#cart-close").focus();
+}
+function closeCart() {
+  drawer.classList.remove("is-open"); overlay.classList.remove("is-open");
+  drawer.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("no-scroll");
+}
+$("#cart-open").addEventListener("click", openCart);
+$("#cart-close").addEventListener("click", closeCart);
+overlay.addEventListener("click", closeCart);
+document.addEventListener("keydown", function (e) { if (e.key === "Escape" && drawer.classList.contains("is-open")) closeCart(); });
+
+/* =========================================================
+   CHECKOUT
+   ========================================================= */
+const coDialog = $("#checkout-dialog");
+$("#co-area").innerHTML = AREAS.map(function (a) { return '<option value="' + a.id + '">' + a.nama + "</option>"; }).join("");
+$("#co-bayar").innerHTML = PAYMENTS.map(function (m, i) {
+  return '<label class="opt"><input type="radio" name="co-bayar" value="' + m + '"' + (i === 0 ? " checked" : "") + '><span class="opt-name">' + m + "</span></label>";
+}).join("");
+(function () {
+  const d = new Date(); d.setDate(d.getDate() + 1);
+  const iso = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  $("#co-tgl").min = iso; $("#co-tgl").value = iso;
+})();
+
+function renderCheckoutSummary() {
+  const t = totals();
+  $("#co-summary").innerHTML = cart.map(function (i) {
+    return '<div class="order-line"><span>' + esc(i.nama) + (i.qty > 1 ? " × " + i.qty : "") + "</span><span>" + (i.harga ? rp(i.harga * i.qty) : "Gratis") + "</span></div>";
+  }).join("") + '<div class="sum-block">' + totalsHtml(t, opts.pasang) + "</div>";
+}
+
+$("#go-checkout").addEventListener("click", function () {
+  if (!cart.length) return;
+  closeCart();
+  $("#co-area").value = opts.area;
+  renderCheckoutSummary();
+  $("#checkout-view").hidden = false;
+  $("#confirm-view").hidden = true;
+  $("#checkout-msg").textContent = "";
+  $("#co-title").textContent = "Checkout";
+  $("#co-sub").hidden = false;
+  coDialog.showModal();
+});
+$("#co-area").addEventListener("change", function (e) { opts.area = e.target.value; saveCart(); renderCheckoutSummary(); renderCart(); });
+
+function makeOrderId() {
+  const d = new Date();
+  const ymd = String(d.getFullYear()).slice(2) + String(d.getMonth() + 1).padStart(2, "0") + String(d.getDate()).padStart(2, "0");
+  return "ALM-" + ymd + "-" + Math.random().toString(36).slice(2, 6).toUpperCase();
+}
+
+function orderText(o) {
+  const t = o.totals;
+  let s = "Halo Alumma, saya ingin konfirmasi pesanan dari website.\n\n";
+  s += "No. Pesanan: " + o.id + "\nNama: " + o.nama + "\nWhatsApp: " + o.hp + "\nEmail: " + o.email + "\n";
+  s += "Alamat: " + o.alamat + " (" + t.area.nama + ")\nJadwal survei: " + o.tglLabel + "\nPembayaran: " + o.bayar + "\n\nRincian:\n";
+  o.items.forEach(function (i, n) {
+    s += (n + 1) + ". " + i.nama + " — " + [i.varian, i.finishing, i.spec].filter(Boolean).join(", ") +
+      (i.qty > 1 ? " ×" + i.qty : "") + " = " + (i.harga ? rp(i.harga * i.qty) : "Gratis") +
+      (i.catatan ? " (catatan: " + i.catatan + ")" : "") + "\n";
+  });
+  s += "\nSubtotal: " + rp(t.subtotal) + "\nPemasangan: " + (o.pasang ? rp(t.pasang) : "Tidak") + "\nTransport: " + transportLabel(t) + "\n";
+  if (t.diskon) s += "Promo " + t.promo + ": -" + rp(t.diskon) + "\n";
+  s += "Total estimasi: " + rp(t.total) + "\nDP 50%: " + rp(t.dp);
+  if (o.catatan) s += "\n\nCatatan: " + o.catatan;
+  return s;
+}
+
+$("#checkout-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const form = e.target, msg = $("#checkout-msg");
+  if (!form.checkValidity()) {
+    const bad = form.querySelector(":invalid");
+    msg.textContent = bad && bad.id === "co-hp" ? "Nomor WhatsApp belum valid (contoh: 081234567890)."
+      : bad && bad.id === "co-email" ? "Alamat email belum valid."
+      : bad && bad.id === "co-agree" ? "Centang persetujuan harga estimasi terlebih dulu."
+      : "Lengkapi semua data yang wajib diisi.";
+    if (bad) bad.focus();
+    return;
+  }
+  msg.textContent = "";
+  const tgl = $("#co-tgl").value;
+  const order = {
+    id: makeOrderId(),
+    waktu: new Date().toLocaleString("id-ID"),
+    nama: $("#co-nama").value.trim(),
+    hp: $("#co-hp").value.trim(),
+    email: $("#co-email").value.trim(),
+    alamat: $("#co-alamat").value.trim(),
+    tglLabel: new Date(tgl + "T00:00:00").toLocaleDateString("id-ID", { weekday: "long", day: "numeric", month: "long", year: "numeric" }),
+    bayar: (form.querySelector('input[name="co-bayar"]:checked') || {}).value || PAYMENTS[0],
+    catatan: $("#co-catatan").value.trim(),
+    pasang: opts.pasang,
+    items: cart.slice(),
+    totals: totals()
+  };
+  const text = orderText(order);
+  const btn = $("#co-submit");
+  btn.disabled = true; btn.textContent = "Mengirim pesanan...";
+
+  // Dicatat ke Google Sheets (Apps Script yang sama dengan form kontak).
+  fetch(SCRIPT_URL, {
+    method: "POST", mode: "no-cors",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body: JSON.stringify({
+      nama: order.nama, email: order.email, nohp: order.hp,
+      pesan: "[PESANAN " + order.id + "] " + text,
+      jenis: "pesanan", id_pesanan: order.id, total: order.totals.total
+    })
+  })
+    .then(function () { showConfirmation(order, text, true); })
+    .catch(function () { showConfirmation(order, text, false); })
+    .finally(function () { btn.disabled = false; btn.textContent = "Kirim pesanan"; });
+});
+
+function showConfirmation(order, text, sent) {
+  store.set("alumma-last-order", { id: order.id, waktu: order.waktu, total: order.totals.total });
+  cart = []; opts.promo = ""; saveCart(); renderCart();
+  $("#promo-input").value = ""; $("#promo-msg").textContent = "";
+  const waUrl = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(text);
+  $("#checkout-view").hidden = true;
+  $("#co-title").textContent = "Pesanan " + order.id;
+  $("#co-sub").hidden = true;
+  const cv = $("#confirm-view");
+  cv.hidden = false;
+  cv.innerHTML =
+    '<div class="confirm-head">' +
+      '<div class="confirm-icon"><svg width="26" height="26" viewBox="0 0 20 20" fill="none"><path d="M4.5 10.5l3.5 3.5 7.5-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>' +
+      "<h2>Pesanan diterima</h2>" +
+      "<p>" + (sent ? "Terima kasih, " + esc(order.nama.split(" ")[0]) + ". Pesanan sudah tercatat di sistem kami."
+                    : "Koneksi ke server gagal, tapi pesanan tetap bisa dikirim lewat WhatsApp di bawah.") + "</p>" +
+      '<div class="order-id">' + order.id + "</div>" +
+    "</div>" +
+    '<div class="checkout-grid"><div>' +
+      '<div class="section-label">Langkah berikutnya</div><ol class="next-steps">' +
+        "<li>Kirim konfirmasi lewat WhatsApp agar admin segera memproses pesanan.</li>" +
+        "<li>Tim datang survei ukur pada " + esc(order.tglLabel) + " (atau jadwal yang disepakati).</li>" +
+        "<li>Admin mengirim invoice harga final beserta nomor rekening / QRIS.</li>" +
+        "<li>Bayar DP 50% — produksi dimulai 7–14 hari kerja.</li>" +
+        "<li>Pemasangan, cek bersama, lalu pelunasan 50%.</li>" +
+      "</ol></div>" +
+      '<div class="order-box"><h3>Ringkasan</h3>' + totalsHtml(order.totals, order.pasang) + "</div>" +
+    "</div>" +
+    '<div class="confirm-actions">' +
+      '<a class="btn btn-wa" href="' + waUrl + '" target="_blank" rel="noopener">Konfirmasi via WhatsApp</a>' +
+      '<button type="button" class="btn btn-ghost" id="print-invoice">Cetak / simpan invoice</button>' +
+      '<button type="button" class="btn btn-ghost" data-close>Selesai</button>' +
+    "</div>";
+  $("#print-invoice").addEventListener("click", function () { printInvoice(order); });
+}
+
+function printInvoice(o) {
+  const t = o.totals;
+  const rows = o.items.map(function (i, n) {
+    return "<tr><td>" + (n + 1) + "</td><td><b>" + esc(i.nama) + "</b><br><span>" + esc([i.varian, i.finishing, i.spec].filter(Boolean).join(" · ")) +
+      (i.catatan ? "<br>Catatan: " + esc(i.catatan) : "") + "</span></td><td class='r'>" + i.qty + "</td><td class='r'>" + (i.harga ? rp(i.harga) : "Gratis") +
+      "</td><td class='r'>" + (i.harga ? rp(i.harga * i.qty) : "Gratis") + "</td></tr>";
+  }).join("");
+  const sum = function (l, v, cls) { return "<tr class='" + (cls || "") + "'><td colspan='4' class='r'>" + l + "</td><td class='r'>" + v + "</td></tr>"; };
+  const html =
+    "<!DOCTYPE html><html lang='id'><head><meta charset='UTF-8'><title>Invoice " + o.id + "</title><style>" +
+    "body{font-family:Arial,sans-serif;color:#111;margin:40px;font-size:13px}h1{font-size:22px;margin:0}" +
+    ".top{display:flex;justify-content:space-between;border-bottom:2px solid #111;padding-bottom:14px;margin-bottom:18px}" +
+    ".muted{color:#666}table{width:100%;border-collapse:collapse;margin-top:14px}th,td{padding:8px;border-bottom:1px solid #ddd;text-align:left;vertical-align:top}" +
+    "th{background:#f2f2f2;font-size:12px;text-transform:uppercase}td span{color:#555;font-size:12px}.r{text-align:right}" +
+    ".total td{font-weight:bold;font-size:15px;border-top:2px solid #111}.dp td{color:#a0571f;font-weight:bold}" +
+    ".grid{display:flex;gap:40px}.note{margin-top:22px;padding:12px;background:#f7f7f7;font-size:12px}</style></head><body>" +
+    "<div class='top'><div><h1>Alumma</h1><div class='muted'>Aluminium Malang · Malang, Jawa Timur<br>+62 889-8074-2132 · info@alummalang.id</div></div>" +
+    "<div class='r'><b>INVOICE ESTIMASI</b><br>" + o.id + "<br><span class='muted'>" + esc(o.waktu) + "</span></div></div>" +
+    "<div class='grid'><div><b>Pemesan</b><br>" + esc(o.nama) + "<br>" + esc(o.hp) + "<br>" + esc(o.email) + "</div>" +
+    "<div><b>Lokasi</b><br>" + esc(o.alamat) + "<br>" + esc(t.area.nama) + "</div>" +
+    "<div><b>Survei</b><br>" + esc(o.tglLabel) + "<br><b>Pembayaran</b><br>" + esc(o.bayar) + "</div></div>" +
+    "<table><thead><tr><th>No</th><th>Produk / Jasa</th><th class='r'>Qty</th><th class='r'>Harga</th><th class='r'>Jumlah</th></tr></thead><tbody>" + rows +
+    sum("Subtotal", rp(t.subtotal)) +
+    sum("Pemasangan", o.pasang ? rp(t.pasang) : "Tidak dipasang") +
+    sum("Transport (" + esc(t.area.nama) + ")", transportLabel(t)) +
+    (t.diskon ? sum("Promo " + esc(t.promo), "-" + rp(t.diskon)) : "") +
+    sum("Total estimasi", rp(t.total), "total") +
+    sum("DP 50% (dibayar setelah survei)", rp(t.dp), "dp") +
+    "</tbody></table><div class='note'>Harga di atas adalah estimasi berdasarkan ukuran dari pemesan. Harga final ditetapkan setelah survei ukur. " +
+    "Nomor rekening/QRIS resmi dikirim admin melalui WhatsApp. Garansi pemasangan 1 tahun.</div>" +
+    "<script>window.onload=function(){window.print()}<\/script></body></html>";
+  const w = window.open("", "_blank");
+  if (!w) { alert("Izinkan pop-up untuk mencetak invoice."); return; }
+  w.document.write(html); w.document.close();
+}
+
+document.querySelectorAll("dialog").forEach(function (d) {
+  d.addEventListener("click", function (e) {
+    if (e.target.closest("[data-close]") || e.target === d) d.close();
+  });
+});
+
+/* =========================================================
+   FORM KONSULTASI (ke Google Sheets)
+   ========================================================= */
+const contactForm = $("#contact-form");
+contactForm.addEventListener("submit", function (e) {
+  e.preventDefault();
+  const msg = $("#contact-msg");
+  msg.textContent = "Mengirim...";
+  fetch(SCRIPT_URL, {
+    method: "POST", mode: "no-cors",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body: JSON.stringify({ nama: $("#nama").value, email: $("#email").value, nohp: $("#nohp").value, pesan: $("#pesan").value })
+  })
+    .then(function () { msg.textContent = "Terima kasih, pesan Anda sudah terkirim. Kami akan segera menghubungi Anda."; contactForm.reset(); })
+    .catch(function () { msg.textContent = "Gagal mengirim pesan. Silakan coba lagi atau hubungi kami lewat WhatsApp."; });
+});
+
+/* =========================================================
+   UI: toast, menu, header, reveal, tilt, deep link
+   ========================================================= */
+let toastTimer;
+function showToast(text) {
+  $("#toast-text").textContent = text;
+  $("#toast").classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function () { $("#toast").classList.remove("show"); }, 3200);
+}
+$("#toast-action").addEventListener("click", openCart);
+
+const menuToggle = $("#menu-toggle"), mobileMenu = $("#mobile-menu");
+menuToggle.addEventListener("click", function () {
+  const open = mobileMenu.classList.toggle("is-open");
+  menuToggle.classList.toggle("is-open", open);
+  menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
+});
+// Menu ditutup seketika (tanpa animasi) sebelum scroll, supaya posisi tujuan tidak meleset
+mobileMenu.querySelectorAll("a").forEach(function (a) {
+  a.addEventListener("click", function (e) {
+    const target = document.querySelector(a.getAttribute("href"));
+    mobileMenu.style.transition = "none";
+    mobileMenu.classList.remove("is-open"); menuToggle.classList.remove("is-open");
+    menuToggle.setAttribute("aria-expanded", "false");
+    void mobileMenu.offsetHeight;
+    mobileMenu.style.transition = "";
+    if (target) {
+      e.preventDefault();
+      history.pushState(null, "", a.getAttribute("href"));
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  });
+});
+
+const siteHeader = $("#site-header");
+function onScroll() { siteHeader.classList.toggle("is-scrolled", window.scrollY > 8); }
+window.addEventListener("scroll", onScroll, { passive: true });
+onScroll();
+
+// Tandai menu aktif sesuai bagian yang sedang dilihat
+const navLinks = document.querySelectorAll("nav.links a");
+if ("IntersectionObserver" in window) {
+  const sectionObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) {
+        navLinks.forEach(function (a) { a.classList.toggle("is-active", a.getAttribute("href") === "#" + en.target.id); });
+      }
+    });
+  }, { rootMargin: "-45% 0px -50% 0px" });
+  document.querySelectorAll("main section[id]").forEach(function (s) { sectionObserver.observe(s); });
+
+  const revealObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("is-visible"); revealObserver.unobserve(en.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll(".reveal, .reveal-stagger").forEach(function (el) { revealObserver.observe(el); });
+} else {
+  document.querySelectorAll(".reveal, .reveal-stagger").forEach(function (el) { el.classList.add("is-visible"); });
+}
+
+const heroWrap = $(".hero-photo-wrap"), heroPhoto = $(".hero-photo");
+if (heroWrap && !window.matchMedia("(prefers-reduced-motion: reduce)").matches && window.matchMedia("(hover: hover)").matches) {
+  heroPhoto.style.transition = "transform 0.25s ease";
+  heroWrap.addEventListener("mousemove", function (e) {
+    const r = heroWrap.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width - 0.5, py = (e.clientY - r.top) / r.height - 0.5;
+    heroPhoto.style.transform = "rotateY(" + (px * 8) + "deg) rotateX(" + (py * -8) + "deg)";
+  });
+  heroWrap.addEventListener("mouseleave", function () { heroPhoto.style.transform = "none"; });
+}
+
+const waGreeting = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent("Halo Alumma, saya ingin tanya produk aluminium.");
+$("#wa-float").href = waGreeting;
+$("#contact-wa").href = waGreeting;
+
+// Link langsung ke produk, mis. index.html#p-kanopi (juga dari toko.html lama)
+function highlightFromHash() {
+  if (location.hash.indexOf("#p-") !== 0) return;
+  if (!document.querySelector(location.hash)) {
+    document.querySelector('.chip[data-filter="semua"]').click();
+  }
+  const card = document.querySelector(location.hash);
+  if (!card) return;
+  setTimeout(function () {
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
+    card.classList.add("is-highlight");
+    setTimeout(function () { card.classList.remove("is-highlight"); }, 2600);
+  }, 200);
+}
+window.addEventListener("hashchange", highlightFromHash);
+
+$("#promo-input").value = opts.promo || "";
+renderCatalog("semua");
+renderPriceTable();
+renderCart();
+highlightFromHash();
+</script>
+</body>
+</html>
